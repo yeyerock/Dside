@@ -1090,7 +1090,7 @@
 				}
 		#nosotros .swiper-slide img{
 			margin-left: 15%;
-			margin-top: 7%;
+			margin-top: 5.7%;
 			width: 35%;
 			height: auto;
 		}
@@ -1198,12 +1198,7 @@
 					width: auto;
 					height: auto;
 				}
-		#nosotros .swiper-slide img{
-			margin-left: 5%;
-			margin-top: 2%;
-			width: 45%;
-			height: auto;
-		}
+		
 		#nosotros .swiper-slide h2{
 					position: relative;
 					margin-top: 0%;
