@@ -68,10 +68,10 @@
 
 	}
 
-/*Ocultar videos home*/
+/*Ocultar videos home*//*
 $('#video-home').hide(12000);
 $('#video-home2').hide(12000);
-
+*/
 /*TypeWriter*/
 var app = document.getElementByClass('titulo-portafolio');
 
