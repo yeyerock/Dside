@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>D Side</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/new-main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<!-- Link Swiper's CSS -->
+    	<link rel="stylesheet" href="dist/css/swiper.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="assets/js/typewriter.js" type="text/javascript"></script>
+    	<!-- <link rel="stylesheet" href="dist/css/style.css"> -->
+    	<!--Fuente 1 -->
+    	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+			<!--Fuente 2 -->
+			<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+
+
+	</head>
+	<body>
+
+		<div id="main-container" class="contenedor-principal" >
+
+			<header>
+				<!--BOTONES NAVEGACIÓN -->
+				<div id="boton1" class="boton-nav" onClick="displaySection('atras')">
+					<span class="icon-arrow-left2"></span>
+				</div>
+				<div id="boton2" class="boton-nav" onClick="displaySection('adelante')">
+					<span class="icon-arrow-right2"></span>
+				</div>
+				<div id="boton3" class="boton-nav" onClick="displayContact('contacto')">
+					<span class="icon-mobile"></span>
+				</div>
+				<div id="logo">
+					<img src="images/logo.png" alt="">
+				</div>
+			</header>
+
+			<!-- VIDEO ANCHO -->
+			<div id ="video1" class="video-container">
+      	<video autoplay loop preload="auto">
+        	<source src="video/fondo.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- VIDEO CELULAR -->
+      <div id ="video2" class="video-container">
+      	<video autoplay loop preload="auto">
+       		<source src="video/fondovertical.mp4" type="video/mp4">
+      	</video>
+      </div>
+
+			<!--NAVEGACIÓN -->
+     	<div id="navegacion">
+     		<!--HOME -->
+     		<section class="ventana" id="home" style="display:block" >
+					<div id ="video-home" class="video-container">
+		     		<video autoplay loop preload="auto">
+	           	<source src="video/1v3.mp4" type="video/mp4">
+          	</video>
+        	</div>
+
+					<div id ="video-home2" class="video-container">
+         		<video autoplay loop preload="auto">
+		          <source src="video/intro-ancho.mp4" type="video/mp4">
+		        </video>
+		     	</div>
+					<h1 class="titulo-home txt-rotate"
+	 					data-period="2000"
+	 					data-rotate='[ "Home" ]'></h1>
+        </section>
+
+        <!--PORTAFOLIO -->
+        <section class="ventana" id="portafolio">
+					<h1 class="titulo-portafolio txt-rotate"
+	 					data-period="2000"
+	 					data-rotate='[ "Portafolio" ]'
+					></h1>
+         </section>
+
+         <!--NOSOTROS -->
+         <section class="ventana" id="nosotros">
+					 <h1 class="titulo-nosotros txt-rotate"
+ 	 					data-period="2000"
+ 	 					data-rotate='[ "Nosotros"]'></h1>
+
+					 <div class="swiper-container">
+						 <div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="dragger"></div>
+								<img src="images/jose.jpg" >
+								<h2>José</h2>
+								<h3>Web Developer</h3>
+							</div>
+
+    				  <div class="swiper-slide">
+								<div class="dragger"></div>
+								<img src="images/jose.jpg" >
+								<h2>José</h2>
+								<h3>Web Designer</h3>
+    					</div>
+
+							<div class="swiper-slide">
+								<div class="dragger"></div>
+								<img src="images/jose.jpg" >
+								<h2>José</h2>
+								<h3>Web Developer</h3>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="dragger"></div>
+								<img src="images/jose.jpg" >
+								<h2>José</h2>
+								<h3>Web Developer</h3>
+							</div>
+  					</div>
+					 </div>
+				 </section>
+
+         <!--CONTACTO -->
+         <section class="ventana" id="contacto">
+
+					 <!--		<form method="post" action="#">
+									<div class="campo-contacto">
+										<label for="name">Nombre</label>
+											<br>
+										<input type="text" name="name" id="name" placeholder="Ingrese su nombre" />
+									</div>
+									<div class="campo-contacto">
+										<label for="email">Email</label>
+										<br>
+										<input type="text" name="email" id="email" placeholder="Ingrese su  email"/>
+									</div>
+									<div class="campo-contacto">
+										<label for="message">Mensaje</label>
+										<br>
+										<textarea name="message" id="message" rows="1" placeholder="Ingrese su mensaje"></textarea>
+									</div>
+									<ul class="actions">
+										<li><a href="" class="button submit">Enviar</a></li>
+									</ul>
+								</form> -->
+					 <div id="video-contacto" class="video-container">
+			        <video autoplay loop preload="auto">
+			           <source src="video/ipad.mp4" type="video/mp4">
+			        </video>
+			     </div>
+					 <div id="video-contacto2" class="video-container">
+			         <video autoplay loop preload="auto">
+			         		<source src="video/3ipadhorizontav1.mp4" type="video/mp4">
+			         </video>
+			     </div>
+					 <div id="contraste">
+						<div id="logo-contacto">
+  	 					 <img src="images/logo.png" alt="">
+  	 				 </div>
+							<h1 class="titulo-contacto txt-rotate"
+			 					data-period="2000"
+			 					data-rotate='[ "¿Necesitas ayuda?"]'></h1>
+						  <a href="mailto:contacto@dside.com?Subject=Informes">contacto@dside.com</a>
+						  <ul class="social-networks">
+						 	  <li>
+								  <h3>2018 &copy Dside-Devs | All rights reserved</h3>
+							  </li>
+						 </ul>
+					</div>
+
+				</section>
+
+					<!--EXTRA-->
+         	<section class="ventana" id="extra">
+						<h1 class="titulo-portafolio txt-rotate"
+		 					data-period="2000"
+		 					data-rotate='[ "Extra" ]'></h1>
+         	</section>
+         	</div>
+			</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/main.js"></script>
+		<script src="dist/js/swiper.min.js"></script>
+
+		 <script>
+				/*Script Swiper*/
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView: 1,
+					spaceBetween: 20,
+					observer: true,
+					observeParents: true,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+				});
+
+				/*Script Typed Extra
+				var tituloContacto = new Typed('.titulo-contacto',{
+					strings:["¿Necesitas ayuda?"],
+					typedSpeed: 150,
+					backSpeed: 70,
+					loop: true
+				});
+				var tituloExtra = new Typed('.titulo-extra',{
+					strings:["Extra"],
+					typedSpeed: 70,
+					backSpeed: 150,
+					loop: true
+				});
+				var tituloPortafolio = new Typed('.titulo-portafolio',{
+					strings:["Portafolio"],
+					typedSpeed: 700,
+					backSpeed: 100,
+					loop: true
+				});
+				var tituloNosotros = new Typed('.titulo-nosotros',{
+					strings:["Nosotros"],
+					typedSpeed: 150,
+					backSpeed: 100,
+					loop: true
+				});*/
+		</script>
+		<!--	<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script> -->
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	</body>
+</html>

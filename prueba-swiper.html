@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="assets/js/typed.js" type="text/javascript"></script>
+			<title>Document</title>
+
+		</head>
+		<body>
+			<style>
+			/* Cursor */
+		.typed-cursor {}
+
+			/* If fade out option is set */
+			.typed-fade-out {}</style>
+			<h1 id="typed-strings">
+				<p>$%"$%S"</p>
+				<p>Hola <strong>Mundo</strong> soy José</p>
+
+			</h1>
+			<span id="typed"></span>
+			<h2 id="escrito"></h1>
+		<!--	<script>
+				var typed = new Typed('#typed',{
+					stringsElement: '#typed-strings',
+					typeSpeed: 50,
+					backSpeed: 50
+				});
+			</script> -->
+			<script>
+				var typed = new Typed('#escrito',{
+					strings:["Hola Mundo" ,"Soy un José"]
+				});
+			</script>
+		</body>
+
+</html>

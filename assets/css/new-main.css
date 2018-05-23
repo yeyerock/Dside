@@ -1,0 +1,1254 @@
+@import url(font-awesome.min.css);
+@font-face{
+	font-family: "Futura-BTBK";
+	src: url("../fonts/FuturaBookBT.eot");
+	src: url("../fonts/FuturaBookBT.ttf") format('truetype'),
+		 url("../fonts/FuturaBookBT.woff") format('woff');
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1lhvjb');
+  src:  url('../fonts/icomoon.eot?1lhvjb#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1lhvjb') format('truetype'),
+    url('../fonts/icomoon.woff?1lhvjb') format('woff'),
+    url('../fonts/icomoon.svg?1lhvjb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
+.icon-arrow-left2:before {
+  content: "\ea40";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-spotify:before {
+  content: "\ea94";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-onedrive:before {
+  content: "\eaaf";
+}
+.icon-git:before {
+  content: "\eae7";
+}
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Futura-BTBK', sans-serif;
+	}
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	body {
+		-webkit-text-size-adjust: none;
+	}
+	html, body {
+        position: relative;
+        height: 100%;
+    }
+	h1{
+		font-family: 'Raleway', sans-serif;
+	}
+/*Generico*/
+.ocultar{
+	display: none;
+}
+
+/*Containers*/
+.contenedor-principal{
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  list-style:none;
+  padding:0;
+  z-index:1
+}
+.contenedor-principal .swiper-notification{
+  position:absolute;
+  left:0;
+  top:0;
+  pointer-events:none;
+  opacity:0;
+  z-index:-1000
+}
+.contenedor-principal {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* Video */
+	.video-container{
+    width: 100%;
+    z-index: -1000;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+  }
+	#video1{
+		display: none;
+	}
+	#video2{
+		display: block;
+	}
+  video,source{
+  	width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+
+/*Botones navegación*/
+ 	.boton-nav{
+ 		margin: 0px;
+ 		width: 25px;
+ 		height:25px;
+ 		position: absolute;
+ 		cursor: pointer;
+ 		overflow: hidden;
+ 		z-index: 999;
+
+	}
+ 	.boton-nav span{
+ 		position: relative;
+ 		left: 2%;
+ 		font-size: 1.5em;
+		color: white;
+		text-align: center;
+ 	}
+	.boton-nav span:hover{
+ 		color: #781E1F;
+ 	}
+ 	#boton1, #boton2, #boton3{
+ 		position: absolute;
+ 		top: 90%;
+ 	}
+	#boton1{
+		left: 5%;
+	}
+ 	#boton2{
+ 		right:5%;
+ 	}
+ 	#boton3{
+ 		left: 46.5%;
+		display: none;
+ 	}
+
+/*Logo Header*********************************************/
+	#logo{
+		position: absolute;
+		z-index: 996;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+	#logo img{
+		width: 23%;
+		height: auto;
+	}
+
+/*Navegación**********************************************/
+	#navegacion{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 991;
+	}
+	#navegacion section.ventana{
+		position: absolute;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+	}
+
+/*Home*/
+	#navegacion #home{
+		display: block;
+		height: 100%;
+		background-color: rgba(10, 0, 0, 0.5);
+		z-index: 992;
+	}
+	#video-home, #video-home2{
+		width: 100%;
+		height: auto;
+		z-index: 999;
+	}
+	#video-home{
+		display: block;
+	}
+	#video-home2{
+		display: none;
+	}
+	#home h1{
+		position: relative;
+		color: gray;
+		font-size: 1.5em;
+		text-align: center;
+		top: 84.1%;
+	}
+
+/*Portafolio**********************************************/
+	#navegacion #portafolio{
+		display: none;
+		height: 20%;
+		background-color: rgba(10, 0, 0, 0.5);
+		z-index: 992;
+	}
+	#portafolio h1{
+		position: relative;
+		color: gray;
+		font-size: 1.5em;
+		text-align: center;
+		top: 70%;
+	}
+
+/*Nosotros************************************************/
+	#navegacion #nosotros{
+		display: none;
+		height: 100%;
+		background-color: rgba(10, 0, 0, 0.5);
+		z-index: 992;
+	}
+	#nosotros .swiper-container {
+		margin-top: 25%;
+		position: relative;
+		overflow: hidden;
+		width: 85%;
+		height: 70%;
+		padding: 0;
+	}
+	#nosotros .swiper-container .swiper-wrapper .dragger{
+		position: absolute;
+		z-index: 999;
+		cursor: move;
+		margin-top: 30%;
+		margin-left: 80%;
+		width:80px;
+		height:80px;
+		background-color: #781E1F;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	#nosotros .swiper-slide{
+		margin: 0;
+		padding: 0;
+		width: auto;
+		height: auto;
+		text-align: left;
+	}
+	#nosotros h1{
+		position: relative;
+		color: gray;
+		font-size: 1.5em;
+		text-align: center;
+		top: 72.9%;
+
+	}
+	#nosotros .swiper-slide img{
+		position: relative;
+		margin-left: -8.5%;
+		width: auto;
+		height: 60%;
+		transform:          rotate(270deg);
+	 -ms-transform:      rotate(270deg);
+	 -moz-transform:     rotate(270deg);
+	 -webkit-transform:  rotate(270deg);
+	 -o-transform:       rotate(270deg);
+	}
+	#nosotros .swiper-slide h2{
+		position: relative;
+		margin-top: 15%;
+		margin-left: 10%;
+		font-size: 1.5em;
+		color: #fff;
+	}
+	#nosotros .swiper-slide h3{
+		position: relative;
+		margin-top: 2%;
+		margin-left: 10%;
+		font-size: 1em;
+		color: gray;
+	}
+/*Extra****************************************************/
+	#navegacion #extra{
+			display: none;
+			height: 20%;
+			background-color: rgba(10, 0, 0, 0.5);
+			z-index: 992;
+	}
+	#extra h1{
+		position: relative;
+		color: gray;
+		font-size: 1.5em;
+		text-align: center;
+		top: 72.9%;
+	}
+/*Contacto************************************************/
+	#navegacion #contacto{
+		display: none;
+		height: 100%;
+		background-color: rgba(10, 0, 0, 0.5);
+		z-index: 992;
+	}
+	#logo-contacto{
+		position: absolute;
+		z-index: 996;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+	#logo-contacto img{
+		width: 23%;
+		height: auto;
+	}
+	#contacto h1{
+		position: relative;
+		color: gray;
+		font-size: 1.5em;
+		text-align: center;
+		top: 64.2%;
+	}
+	#video-contacto, #video-contacto2{
+		margin-top: 0%;
+		width: 100%;
+	}
+	#video-contacto2{
+		display: none;
+	}
+ 	#navegacion	#contacto #contraste{
+	  	position: absolute;
+		  margin-top: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.7);
+			z-index: 999;
+	}
+  #contacto a{
+			position: relative;
+			text-decoration: none;
+			text-align: center;
+			margin-left: 20%;
+			top: 73%;
+			color: red;
+			font-size: 1.5em;
+	}
+	#contacto a:hover{
+		color: #781E1F;
+	}
+	#contacto a:before{
+		content: "";
+  	position: absolute;
+  	width: 100%;
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+  	background-color: #fff;
+	  visibility: hidden;
+  	-webkit-transform: scaleX(0);
+	  transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+	}
+	#contacto a:hover:before{
+		visibility: visible;
+  	-webkit-transform: scaleX(1);
+  	transform: scaleX(1);
+	}
+	#contacto	.social-networks {
+		position: relative;
+		top: 87%;
+		text-align: center;
+		color: #2A2A2D;
+		font-size:  0.8em;
+	}
+	/*
+		#contacto form{
+			position: relative;
+			margin: 20% 20%;
+			font-size: 1.2em;
+		}
+
+		#contacto .campo-contacto{
+			position: relative;
+			color: #fff;
+			text-align: center;
+			margin-bottom: 10%;
+		}
+
+		#contacto .campo-contacto input, textarea{
+			border: 0;
+		  outline: 0;
+		  background: transparent;
+		  border-bottom: 1px solid #fff;
+			font-size: 0.7em;
+			font-family: inherit;
+			width: 150px;
+			text-align: center;
+			margin-top:5%;
+		}
+
+		#contacto .campo-contacto textarea{
+			resize: none;
+		}
+
+		input:focus::-webkit-input-placeholder {
+			color:transparent;
+		}
+
+		input:focus:-moz-placeholder {
+			color:transparent;
+		}
+
+		input:focus::-moz-placeholder {
+			color:transparent;
+		}
+
+		input:focus:-ms-input-placeholder {
+			color:transparent;
+		}
+
+		textarea:focus::-webkit-input-placeholder {
+			color:transparent;
+		}
+
+		textarea:focus:-moz-placeholder {
+			color:transparent;
+		}
+
+		textarea:focus::-moz-placeholder {
+			color:transparent;
+		} /* FF 19+ */
+	/*
+		textarea:focus:-ms-input-placeholder {
+			color:transparent;
+		}
+
+		#contacto .campo-contacto input,select,textarea{
+			color: #fff;
+			overflow: hidden;
+		}
+
+
+		#contacto .actions li {
+			position: relative;
+			margin: 0 30%;
+			border: 1px solid #fff;
+			border-radius: 0.6em;
+			text-align: center;
+			padding: 2%;
+		}
+
+		#contacto .actions a{
+			text-decoration: none;
+			color: #fff;
+			width: 100%;
+		}
+*/
+
+/*Responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+	@media only screen and (min-width: 360px) {
+		/*Logo Header*********************************************/
+			#logo{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 5%;
+			}
+			#logo img{
+				width: 23%;
+				height: auto;
+			}
+		/*Navegación**********************************************/
+			#navegacion{
+				width: 100%;
+				height: 100%;
+				position: relative;
+				z-index: 998;
+			}
+			#navegacion section.ventana{
+				position: absolute;
+				width: 100%;
+				top: 0px;
+				left: 0px;
+			}
+		/*Home*/
+			#navegacion #home{
+				display: block;
+				height: 100%;
+				background-color: rgba(10, 0, 0, 0.5);
+				z-index: 999;
+			}
+
+		/*Portafolio**********************************************/
+			#navegacion #portafolio{
+				display: none;
+				height: 20%;
+				background-color: rgba(10, 0, 0, 0.5);
+				z-index: 999;
+			}
+			#portafolio h1{
+				margin-top: 25%;
+			}
+
+		/*Nosotros************************************************/
+			#navegacion #nosotros{
+				display: none;
+				height: 100%;
+				background-color: rgba(10, 0, 0, 0.5);
+				z-index: 999;
+			}
+			#nosotros .swiper-container {
+				margin-top: 10%;
+				position: relative;
+				overflow: hidden;
+				width: 85%;
+				height: 70%;
+				padding: 0;
+			}
+			#nosotros .swiper-container .swiper-wrapper .dragger{
+				position: absolute;
+				z-index: 999;
+				cursor: move;
+				margin-top: 35%;
+				margin-left: 80%;
+				width:80px;
+				height:80px;
+				background-color: #781E1F;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			#nosotros .swiper-slide{
+				margin: 0;
+				padding: 0;
+				width: auto;
+				height: auto;
+				text-align: left;
+			}
+			#nosotros h1{
+				margin-top: 20%;
+			}
+			#nosotros .swiper-slide img{
+				position: relative;
+				margin-left: -8.5%;
+				width: auto;
+				height: 60%;
+				transform:          rotate(270deg);
+			 -ms-transform:      rotate(270deg);
+			 -moz-transform:     rotate(270deg);
+			 -webkit-transform:  rotate(270deg);
+			 -o-transform:       rotate(270deg);
+			}
+			#nosotros .swiper-slide h2{
+				position: relative;
+				margin-top: 20%;
+			}
+			#nosotros .swiper-slide h3{
+				position: relative;
+				margin-top: 2%;
+				margin-left: 10%;
+				font-size: 1em;
+				color: gray;
+			}
+
+		/*Extra****************************************************/
+			#navegacion #extra{
+					display: none;
+					height: 20%;
+					background-color: rgba(10, 0, 0, 0.5);
+					z-index: 999;
+			}
+			#extra h1{
+				margin-top: 20%;
+			}
+
+		/*Contacto************************************************/
+
+	}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) {
+		/*VIDEOS*/
+		#video2{
+			display: none;
+		}
+		#video1{
+			display: block;
+		}
+
+		/*BOTONES NAVEGACIÓN*/
+		#boton1, #boton2, #boton3{
+ 			position: absolute;
+ 			top: 85%;
+ 		}
+		#boton3{
+ 			left: 48%;
+ 		}
+
+		/*Logo Header*/
+		#logo, #logo-contacto{
+			margin-left: 5%;
+			margin-top: 2%;
+		}
+		#logo img{
+			width: 15%;
+			height: auto;
+		}
+
+		/*Home*/
+		#video-home{
+			display: none;
+		}
+		#video-home2{
+			display: block;
+		}
+		#home h1{
+			margin-top:-5%;
+			margin-left: 70%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+		/*Portafolio*/
+		#portafolio h1{
+			margin-top:2.9%;
+			margin-left: 70%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+
+		/*Nosotros*/
+		#nosotros h1{
+			margin-top:1.3%;
+			margin-left: 70%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+		#nosotros .swiper-container {
+			margin-top: 0%;
+			padding: 0 0 0 0;
+		}
+		#nosotros .swiper-slide{
+			margin: 0;
+			padding: 0;
+			width: auto;
+			height: auto;
+		}
+		#nosotros .swiper-slide img{
+			position: relative;
+			margin-left: 10%;
+			margin-top: 10%;
+			}
+		#nosotros .swiper-slide h2{
+			position: relative;
+			margin-top: -3%;
+			margin-left: 52%;
+			font-size: 1.5em;
+			color: #fff;
+		}
+		#nosotros .swiper-slide h3{
+			position: relative;
+			margin-top: 1%;
+			margin-left: 52%;
+			font-size: 1em;
+			color: gray;
+		}
+		#nosotros .swiper-container .swiper-wrapper .dragger{
+			margin-top: 15%;
+			margin-left: 80%;
+		}
+
+		/*Extra*/
+		#extra h1{
+			margin-top:1.2%;
+			margin-left: 70%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+
+		/*Contacto*/
+		#logo-contacto img{
+			width: 15%;
+			height: auto;
+		}
+		#contacto h1{
+			font-size: 1.5em;
+			text-align: center;
+			margin-top: -10%;
+		}
+		#contacto a{
+			text-align: center;
+			margin-left: 33%;
+		}
+		#video-contacto{
+			display: none;
+		}
+		#video-contacto2{
+			display: block;
+			position: relative;
+			margin-top: 0%;
+			width: 100%;
+			height: auto;
+		}
+	 	#navegacion	#contacto #contraste{
+		  	position: absolute;
+			  margin-top: -75.5%;
+				width: 100%;
+				height: 100%;
+		}
+		#contacto	.social-networks {
+			position: relative;
+			margin-top: 4%;
+			text-align: center;
+			color: #2A2A2D;
+			font-size:  0.8em;
+		}
+
+	}
+
+/* Medium devices (landscape tablets, 768px and up) */
+	@media  screen and (min-width: 760px) {
+		/*NAVEGACIÓN*/
+		.boton-nav{
+ 			width: 35px;
+ 			height:35px;
+		}
+		.boton-nav span{
+			font-size: 2em;
+		}
+		#boton1, #boton2, #boton3{
+ 			position: absolute;
+ 			top: 90%;
+ 		}
+ 		#boton3{
+ 			left: 48%;
+ 		}
+		/*VIDEOS*/
+		#video2{
+			display: block;
+		}
+		#video1{
+			display: none;
+		}
+
+		/*Logo Header*/
+		#logo, #logo-contacto{
+			margin-left: 5%;
+			margin-top: 5%;
+		}
+		#logo img{
+			width: 20%;
+			height: auto;
+		}
+
+		/*Home*/
+		#video-home{
+			border:1px solid red;
+			display: block;
+		}
+		#video-home2{
+			display: none;
+		}
+		#home h1{
+			margin-top: 0.1%;
+			margin-left: 0%;
+			font-size: 2em;
+		}
+		/*Portafolio*/
+		#portafolio h1{
+			margin-top: 18.9%;
+			margin-left: 0%;
+			font-size: 2em;
+		}
+
+		/*Nosotros*/
+		#nosotros h1{
+			margin-top: 15%;
+			margin-left: 0%;
+			font-size: 2em;
+				}
+		#nosotros .swiper-container {
+					margin-top: 2%;
+					padding: 0 0 0 0;
+				}
+		#nosotros .swiper-slide{
+					margin: 0;
+					padding: 0;
+					width: auto;
+					height: auto;
+				}
+		#nosotros .swiper-slide img{
+			margin-left: -1%;
+			ma
+		}
+		#nosotros .swiper-slide h2{
+					position: relative;
+					margin-top: 15%;
+					margin-left: 13%;
+					font-size: 1.8em;
+					color: #fff;
+				}
+		#nosotros .swiper-slide h3{
+					position: relative;
+					margin-top:2%;
+					margin-left: 13%;
+					font-size: 1.3em;
+					color: gray;
+				}
+		#nosotros .swiper-container .swiper-wrapper .dragger{
+			margin-top: 35%;
+			margin-left: 80%;
+			width: 100px;
+			height: 100px;
+		}
+
+		/*Extra*/
+		#extra h1{
+			margin-top: 15%;
+			margin-left: 0%;
+			font-size: 2em;
+		}
+
+		/*Contacto*/
+
+	 	#navegacion	#contacto #contraste{
+		   margin-top: 0%;
+		}
+		#logo-contacto img{
+			 width: 20%;
+			 height: auto;
+	 	}
+		#contacto h1{
+			margin-top: 7%;
+			margin-left: 0%;
+			font-size: 2em;
+			margin-bottom: 0%;
+		}
+		#contacto a{
+			margin-left: 32.5%;
+			font-size: 1.8em;
+		}
+		#contacto	.social-networks {
+			margin-top: -6%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+		#video-contacto{
+			display: block;
+		}
+		#video-contacto2{
+			display: none;
+		}
+	}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {
+
+		/*NAVEGACIÓN*/
+		#boton3{
+			left: 48.5%;
+		}
+		/*VIDEOS*/
+		#video2{
+			display: block;
+		}
+
+		#video1{
+			display: none;
+		}
+		/*Logo Header*/
+		#logo, #logo-contacto{
+			margin-left: 5%;
+			margin-top: 3%;
+		}
+		#logo img{
+			width: 15%;
+			height: auto;
+		}
+
+		/*Home*/
+		#video-home{
+			display: none;
+		}
+		#video-home2{
+			display: block;
+		}
+		#home h1{
+			margin-top: 0.1%;
+			margin-left: 70%;
+			font-size: 2em;
+		}
+		/*Portafolio*/
+		#portafolio h1{
+			margin-top: 10.7%;
+			margin-left: 70%;
+		}
+
+		/*Nosotros*/
+		#nosotros h1{
+			margin-top: 8.5%;
+			margin-left: 70%;
+		}
+		#nosotros .swiper-container {
+					margin-top: 2%;
+					padding: 0 0 0 0;
+				}
+		#nosotros .swiper-slide{
+					margin: 0;
+					padding: 0;
+					width: auto;
+					height: auto;
+				}
+		#nosotros .swiper-slide img{
+			margin-left: -1%;
+		}
+		#nosotros .swiper-slide h2{
+					position: relative;
+					margin-top: -2%;
+					margin-left: 45%;
+					font-size: 1.8em;
+					color: #fff;
+				}
+		#nosotros .swiper-slide h3{
+					position: relative;
+					margin-top:2%;
+					margin-left: 45%;
+					font-size: 1.3em;
+					color: gray;
+				}
+		#nosotros .swiper-container .swiper-wrapper .dragger{
+			margin-top: 20%;
+			margin-left: 80%;
+		}
+
+		/*Extra*/
+		#extra h1{
+			margin-top: 8.5%;
+			margin-left: 70%;
+		}
+
+		/*Contacto*/
+		#navegacion	#contacto #contraste{
+		   margin-top: -75%;
+		}
+
+		#logo-contacto img{
+			width: 15%;
+			height: auto;
+		}
+		#contacto h1{
+			margin-top: 3%;
+		}
+		#contacto a{
+			margin-left: 37%;
+			font-size: 1.8em;
+		}
+		#contacto	.social-networks {
+			margin-top: -4%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+		#video-contacto2{
+			display: block;
+		}
+		#video-contacto{
+			display: none;
+		}
+	}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
+		/*NAVEGACIÓN*/
+		.boton-nav{
+ 			width: 35px;
+ 			height:35px;
+		}
+
+		.boton-nav span{
+			font-size: 2em;
+		}
+
+		#boton1, #boton2, #boton3{
+ 			position: absolute;
+ 			top: 90%;
+ 		}
+		#video2{
+			display: none;
+		}
+
+		#video1{
+			display: block;
+		}
+		#boton3{
+ 			left: 49%;
+ 		}
+		/*Logo Header*/
+		#logo, #logo-contacto{
+			margin-left: 5%;
+			margin-top: 3%;
+		}
+		#logo img{
+			width: 10%;
+			height: auto;
+		}
+
+		/*Home*/
+		#video-home{
+			display: none;
+		}
+		#video-home2{
+			display: block;
+		}
+		#home h1{
+			margin-top: -0.3%;
+			margin-left: 75%;
+			font-size: 2em;
+		}
+
+		/*Portafolio*/
+		#portafolio h1{
+			margin-top: 6.4%;
+			margin-left: 75%;
+			font-size: 2em;
+		}
+
+		/*Nosotros*/
+		#nosotros h1{
+			margin-top: 5%;
+			margin-left: 75%;
+			font-size: 2em;
+		}
+		#nosotros .swiper-container {
+					margin-top: 0%;
+					padding: 0 0 0 0;
+				}
+		#nosotros .swiper-slide{
+					margin: 0;
+					padding: 0;
+					width: auto;
+					height: auto;
+				}
+		#nosotros .swiper-slide img{
+			margin-left: 15%;
+			margin-top: 7%;
+			width: 35%;
+			height: auto;
+		}
+		#nosotros .swiper-slide h2{
+			margin-top: 0%;
+			margin-left: 47%;
+			font-size: 1.8em;
+		}
+		#nosotros .swiper-slide h3{
+					position: relative;
+					margin-top:1%;
+					margin-left: 47%;
+					font-size: 1.3em;
+					color: gray;
+				}
+		#nosotros .swiper-container .swiper-wrapper .dragger{
+			margin-top: 15%;
+			margin-left: 80%;
+		}
+
+		/*Extra*/
+		#extra h1{
+			margin-top: 5%;
+			margin-left: 75%;
+			font-size: 2em;
+		}
+
+		/*Contacto*/
+		#navegacion	#contacto #contraste{
+		 	margin-top: -75.3%;
+		}
+		#logo-contacto img{
+			width: 10%;
+			height: auto;
+			margin-top: 0.1%;
+		}
+		#contacto h1{
+			margin-top: 1%;
+		}
+		#contacto a{
+			margin-left: 41.2%;
+			font-size: 1.8em;
+		}
+		#contacto	.social-networks {
+			margin-top: -1.5%;
+			text-align: center;
+			font-size: 1.2em;
+		}
+		#video-contacto{
+			display: none;
+		}
+		#video-contacto2{
+			display: block;
+		}
+	}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1800px) {
+		/*NAVEGACIÓN*/
+		.boton-nav{
+ 			width: 35px;
+ 			height:35px;
+		}
+		.boton-nav span{
+			font-size: 2em;
+		}
+
+		#boton1, #boton2, #boton3{
+ 			position: absolute;
+ 			top: 90%;
+ 		}
+		#boton3{
+ 			left: 49%;
+ 		}
+
+		/*Logo Header*/
+		#logo{
+			margin-left: 5%;
+			margin-top: 3%;
+		}
+		#logo img{
+			width: 20%;
+			height: auto;
+		}
+
+		/*Home*/
+
+		/*Portafolio*/
+		#portafolio h1{
+			margin-top: 5%;
+
+		}
+
+		/*Nosotros*/
+		#nosotros h1{
+					margin-top: 11%;
+				}
+		#nosotros .swiper-container {
+					margin-top: 0%;
+					padding: 0 0 0 0;
+				}
+		#nosotros .swiper-slide{
+					margin: 0;
+					padding: 0;
+					width: auto;
+					height: auto;
+				}
+		#nosotros .swiper-slide img{
+			margin-left: 5%;
+			margin-top: 2%;
+			width: 45%;
+			height: auto;
+		}
+		#nosotros .swiper-slide h2{
+					position: relative;
+					margin-top: 0%;
+					margin-left: 47%;
+					font-size: 2em;
+				}
+		#nosotros .swiper-slide h3{
+					position: relative;
+					margin-top:1%;
+					margin-left: 47%;
+					font-size: 1.7em;
+				}
+		#nosotros .swiper-container .swiper-wrapper .dragger{
+			margin-top: 20%;
+			margin-left: 80%;
+		}
+
+		/*Extra*/
+		#extra h1{
+			margin-top: 11%;
+		}
+
+		/*Contacto*/
+		#contacto h1{
+			margin-top: 11%;
+		}
+		#contacto img{
+			margin-left:  57%;
+			margin-top: 0%;
+			width: 43%;
+			height: auto;
+		}
+		#contacto h2{
+			margin-top: -25%;
+			margin-bottom: 1%;
+			font-size: 2.3em;
+		}
+		#contacto a{
+			font-size: 2em;
+		}
+		#contacto	.social-networks {
+			font-size: 2em;
+		}
+		#contacto .social-networks .icons a{
+			font-size: 1.5em;
+		}
+
+	}
