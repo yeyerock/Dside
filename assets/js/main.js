@@ -69,21 +69,6 @@
 	}
 
 /*Ocultar videos home*//*
-$('#video-home').hide(12000);
-$('#video-home2').hide(12000);
+$('#video-home').delay(1000).fadeOut();
+$('#video-home2').delay(1000).fadeOut();
 */
-/*TypeWriter*/
-var app = document.getElementByClass('titulo-portafolio');
-
-var typewriter = new Typewriter(app, {
-    loop: true
-});
-
-typewriter.typeString('Hello World!')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('Strings can be removed')
-    .pauseFor(2500)
-    .deleteChars(7)
-    .typeString('altered!')
-    .start();

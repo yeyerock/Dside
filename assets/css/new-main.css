@@ -244,9 +244,9 @@
 	#home h1{
 		position: relative;
 		color: gray;
-		font-size: 1.5em;
+		font-size: 1.7em;
 		text-align: center;
-		top: 84.1%;
+		top: 54.1%;
 	}
 
 /*Portafolio**********************************************/
@@ -257,11 +257,11 @@
 		z-index: 992;
 	}
 	#portafolio h1{
-		position: relative;
-		color: gray;
-		font-size: 1.5em;
-		text-align: center;
-		top: 70%;
+			position: relative;
+			color: gray;
+			font-size: 1.5em;
+			text-align: center;
+			top: 70%;
 	}
 
 /*Nosotros************************************************/
@@ -665,9 +665,9 @@
 		}
 		#home h1{
 			margin-top:-5%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
+			margin-left: 5%;
+			text-align: left;
+			font-size: 1.5em;
 		}
 		/*Portafolio*/
 		#portafolio h1{
@@ -810,9 +810,10 @@
 			display: none;
 		}
 		#home h1{
-			margin-top: 0.1%;
 			margin-left: 0%;
 			font-size: 2em;
+			text-align: center;
+
 		}
 		/*Portafolio*/
 		#portafolio h1{
@@ -934,8 +935,9 @@
 			display: block;
 		}
 		#home h1{
-			margin-top: 0.1%;
-			margin-left: 70%;
+			margin-top:-5%;
+			margin-left: 5%;
+			text-align: left;
 			font-size: 2em;
 		}
 		/*Portafolio*/
@@ -1060,9 +1062,10 @@
 			display: block;
 		}
 		#home h1{
-			margin-top: -0.3%;
-			margin-left: 75%;
-			font-size: 2em;
+			margin-top:2%;
+			margin-left: 5%;
+			text-align: left;
+			font-size: 2.5em;
 		}
 
 		/*Portafolio*/
