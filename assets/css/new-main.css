@@ -391,22 +391,21 @@
 			color: red;
 			font-size: 1.5em;
 	}
- #contacto	#contraste a:hover{
-		color: #781E1F;
-	}
-
-	#contacto #contraste a::after{
-		content: '';
-		display: block;
-		width: 0;
-		height: 2px;
-		transition: width .3s;
-		background: #fff;
-	}
-	#contacto #contraste a:hover::after{
-		width: 100%;
-		transition: width .3s;
-	}
+	 #contacto	#contraste a:hover{
+			color: #781E1F;
+		}
+		#contacto #contraste a::after{
+			content: '';
+			display: block;
+			width: 0;
+			height: 2px;
+			transition: width .3s;
+			background: #fff;
+		}
+		#contacto #contraste a:hover::after{
+			width: 100%;
+			transition: width .3s;
+		}
 
 	#contacto	.social-networks {
 		position: relative;
