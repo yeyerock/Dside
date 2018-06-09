@@ -62,17 +62,17 @@
      	<div id="navegacion">
      		<!--HOME -->
      		<section class="ventana" id="home" style="display:block" >
-					<!--<div id ="video-home" class="video-container">
-		     		<video autoplay loop preload="auto">
+					<div id ="video-home" class="video-container">
+		     		<video autoplay playsinline muted loop preload="auto">
 	           	<source src="video/1v3.mp4" type="video/mp4">
           	</video>
         	</div>
 
 					<div id ="video-home2" class="video-container">
-         		<video autoplay loop preload="auto">
+         		<video autoplay playsinline muted loop preload="auto">
 		          <source src="video/intro-ancho.mp4" type="video/mp4">
 		        </video>
-		     	</div> -->
+		     	</div>
 					<h1 class="titulo-home txt-rotate" data-period="500" data-rotate='[ "Tecnología | Diseño |Creatividad |Innovación"]'></h1>
         </section>
 
@@ -96,38 +96,7 @@
 							<li><img src="images/shrek.jpg" alt="03"/><h5>Prueba 3 | Developer</h5></li>
 							<li><img src="images/shrek.jpg" alt="03"/><h5>Prueba 4 | Developer</h5></li>
 						</ul>
-						<!--
-					  <div class="swiper-container">
-						 <div class="swiper-wrapper">
-							<div class="swiper-slide">
-								<div class="dragger"></div>
-								<img src="images/jose.jpg" >
-								<h2>José</h2>
-								<h3>Web Developer</h3>
-							</div>
 
-    				  <div class="swiper-slide">
-								<div class="dragger"></div>
-								<img src="images/jose.jpg" >
-								<h2>José</h2>
-								<h3>Web Designer</h3>
-    					</div>
-
-							<div class="swiper-slide">
-								<div class="dragger"></div>
-								<img src="images/jose.jpg" >
-								<h2>José</h2>
-								<h3>Web Developer</h3>
-							</div>
-
-							<div class="swiper-slide">
-								<div class="dragger"></div>
-								<img src="images/jose.jpg" >
-								<h2>José</h2>
-								<h3>Web Developer</h3>
-							</div>
-  					</div>
-					</div> -->
 				 </section>
 
          <!--CONTACTO -->
@@ -176,18 +145,7 @@
 		<script src="assets/js/elastiStack.js"></script>
 
 		 <script>
-				/*Script Swiper*/
-				var swiper = new Swiper('.swiper-container', {
-					slidesPerView: 1,
-					spaceBetween: 20,
-					observer: true,
-					observeParents: true,
-					pagination: {
-						el: '.swiper-pagination',
-						clickable: true,
-					},
-				});
-
+				
 				new ElastiStack( document.getElementById( 'elasticstack' ) );
 		</script>
 
