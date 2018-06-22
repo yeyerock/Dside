@@ -747,7 +747,7 @@
 					font-size: 1em;
 					margin-top: -11.5%;
 					margin-left: 70%;
-				}
+				}1
 				.elasticstack {
 					margin: 5% auto;
 					padding: 0;
@@ -805,7 +805,7 @@
 /* ---------------Iphone 6, 6S ,7 ,8 ---------------- */
  	 @media only screen
  	 and (min-device-width: 375px)
- 	 and (min-device-height: 569px)
+ 	 and (min-device-height: 374px)
  	 and (-webkit-min-device-pixel-ratio: 2)
  	 and (orientation: portrait){
 		 /*Logo Header*/
@@ -849,7 +849,7 @@
 	 		 	}
 	 		 	#portafolio h1{
 	 		 		font-size: 1.5em;
-	 		 		margin-top: 0%;
+	 		 		margin-top: -5%;
 	 		 	}
 
 		 /*Nosotros*/
@@ -858,10 +858,10 @@
 	 		    margin-top: -17.5%;
 	 		 	}
 	 		 	.elasticstack {
-	 		 		margin: 35% auto;
+	 		 		margin: 30% auto;
 	 		    padding: 0;
 	 		    width: 80%;
-	 		    height: 53%;
+	 		    height: 60%;
 	 		 	}
 	 		 	.elasticstack li {
 	 		 		width: 100%;
