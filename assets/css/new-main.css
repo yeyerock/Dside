@@ -682,7 +682,7 @@
 
 	 @media only screen
 	 and (min-device-width: 568px)
-	 and (max-device-height: 212px)
+	 and (max-device-height: 320px)
 	 and (-webkit-min-device-pixel-ratio: 2)
 	 and (orientation: landscape) {
 			/*Botones navegación*/
@@ -715,13 +715,13 @@
 				#home h1{
 					font-size: 1.2em;
 					text-align: left;
-					margin-top: 20%;
+					margin-top: 35%;
 					margin-left: 5%;
 				}
 			/*Portafolio*/
 				#portafolio .subtitulo-proyectos{
 					font-size: 1em;
-					margin-top: 12%;
+					margin-top: 13%;
 					margin-left: 10%;
 				}
 				#portafolio .contenedor-proyectos{
@@ -733,27 +733,26 @@
 				#portafolio .proyecto {
 					width: 22%;
 					display: inline-grid;
-					margin-top: 0%;
+					margin-top: 5%;
 					margin-left: 20%;
 				}
 				#portafolio h1{
 					font-size: 1em;
-					margin-top: -15%;
+					margin-top: -12%;
 					margin-left: 72%;
 				}
 
 			/*Nosotros*/
 				#nosotros h1{
 					font-size: 1em;
-					margin-top: -11.5%;
+					margin-top: -17.5%;
 					margin-left: 70%;
-				}1
+				}
 				.elasticstack {
-					margin: 5% auto;
+					margin: 13% auto;
 					padding: 0;
 					width: 30%;
-					height: 80%;
-					border: 1px solid blue;
+					height: 60%;
 				}
 				.elasticstack li {
 					height: 100%;
@@ -763,13 +762,13 @@
 				.elasticstack li h5 {
 					text-align: right;
 					font-size: 0.75em;
-					line-height: 20px;
+					line-height: 40px;
 				}
 
 			/*Contacto*/
 				#contacto h1{
 							font-size: 1.5em;
-							margin-top: 12%;
+							margin-top: 25%;
 						}
 				#video-contacto1{
 							display: none;
