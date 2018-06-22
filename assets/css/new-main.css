@@ -170,9 +170,9 @@
 
 /*Botones navegación*/
  	.boton-nav{
-	 		margin: 0px;
-	 		width: 25px;
-	 		height:25px;
+			margin: 0px;
+			width: 5%
+			height: 5%;
 	 		position: absolute;
 	 		cursor: pointer;
 	 		overflow: hidden;
@@ -188,7 +188,7 @@
 	.boton-nav span:hover{
  		color: #781E1F;
  	}
- 	#boton1, #boton2, #boton3{
+ 	#boton1, #boton2{
  		position: absolute;
  		top: 90%;
  	}
@@ -198,10 +198,7 @@
  	#boton2{
  		right:5%;
  	}
- 	#boton3{
- 		left: 46.5%;
-		display: none;
- 	}
+
 
 /*Logo Header*********************************************/
 	#logo{
@@ -253,7 +250,7 @@
 		color: gray;
 		font-size: 1.7em;
 		text-align: center;
-		top: 54.1%;
+		margin-top: 65%;
 	}
 
 /*Portafolio**********************************************/
@@ -263,13 +260,42 @@
 		background-color: rgba(0, 0, 0, 0.9);
 		z-index: 992;
 	}
-	#portafolio h1{
-			position: relative;
-			color: gray;
-			font-size: 1.5em;
-			text-align: center;
-			top: 70%;
+	#portafolio .subtitulo-proyectos{
+		color: gray;
+		font-size: 1.2em;
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.2em;
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+	#portafolio .contenedor-proyectos{
+		width: 90%;
+    height: 50%;
+    margin: 0% 10% 10% 5%;
+    padding: 2%;
 	}
+	#portafolio .proyecto {
+		width: 43%;
+    display: inline-grid;
+    margin-top: 8%;
+    margin-left: 5%;
+	}
+	#portafolio .proyecto img{
+		width: 100%;
+		height: auto;
+	}
+	#portafolio .proyecto a:hover img{
+		transform: scale(1.2);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+	#portafolio h1{
+		position: relative;
+		color: gray;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 0%;
+	}
+
 
 /*Nosotros************************************************/
 	#navegacion #nosotros{
@@ -280,37 +306,38 @@
 	}
 	#nosotros h1{
 		position: relative;
-		color: gray;
-		font-size: 1.5em;
-		text-align: center;
-		top: 70%;
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -17.5%;
 	}
 	.elasticstack {
 		position: relative;
-		margin: 10% auto;
-		padding: 0;
-		width: 340px;
-		height: 380px;
-		list-style: none;
+		margin: 25% auto;
+    padding: 0;
+    width: 70%;
+    height: 63%;
+    list-style: none;
 		-webkit-perspective: 1000px;
 		-webkit-perspective-origin: 50% 150%;
 		perspective: 1000px;
 		perspective-origin: 50% 150%;
 	}
-
 	.no-js .elasticstack {
 		max-width: 1090px;
 		width: 100%;
 		height: auto;
 		text-align: center;
 	}
-
 	.elasticstack li {
 		position: absolute;
 		z-index: 1;
+		width: 100%;
+    height: 87%;
+    border-width: 25px 20px 60px 20px;
 		border-style: solid;
 		border-color: #fff;
-		box-shadow: 0 10px 7px -7px background-color: rgba(10, 0, 0, 0.5);, 0 0 4px rgba(10, 0, 0, 0.8);
+		box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
 		opacity: 0;
 		cursor: pointer;
 		-webkit-transform: translate3d(0,0,-180px);
@@ -318,7 +345,6 @@
 		-webkit-transform-style: preserve-3d;
 		transform-style: preserve-3d;
 	}
-
 	.no-js .elasticstack li {
 		position: relative;
 		display: inline-block;
@@ -329,48 +355,31 @@
 		transform: translate3d(0,0,0);
 
 	}
-
 	.elasticstack li img {
 		display: block;
-	  width: 100%;
-	  height: auto;
+		width: 100%;
+		height: auto;
 	}
-
 	.elasticstack li h5 {
 		margin: 0 5px;
+		padding: 0;
 		color: gray;
-		height: 60px;
 		text-align: right;
-		font-size: 1.4em;
+		font-size: 1em;
 		font-family: 'Raleway', sans-serif;
-		line-height: 60px;
+		line-height: 40px;
 	}
-
 	.elasticstack li.animate {
 		-webkit-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out;
 	}
-
 	.elasticstack li.move-back {
 		/* http://matthewlein.com/ceaser/ */
 		-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1); /* older webkit */
 		-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
 		transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
 	}
-/*Extra****************************************************/
-	#navegacion #extra{
-			display: none;
-			height: 20%;
-			background-color: rgba(0, 0, 0, 0.9);
-			z-index: 992;
-	}
-	#extra h1{
-		position: relative;
-		color: gray;
-		font-size: 1.5em;
-		text-align: center;
-		top: 72.9%;
-	}
+
 /*Contacto************************************************/
 	#navegacion #contacto{
 		display: none;
@@ -412,10 +421,10 @@
 			z-index: 999;
 	}
   #contacto #contraste a{
-			display: inline-block;
+			position: relative;
+			margin-left: 15.8%;
 			text-decoration: none;
 			text-align: center;
-			margin:3% 20%;
 			color: red;
 			font-size: 1.5em;
 	}
@@ -434,656 +443,932 @@
 			width: 100%;
 			transition: width .3s;
 		}
-	#contacto	.social-networks {
+	#contacto	.dside-footer{
 		position: relative;
-		margin-top: 50%;
 		text-align: center;
+		margin-top: 20%;
 		color: rgba(111, 111, 111, 0.64);
 		font-size:  0.8em;
 	}
 
 
-/*Responsive*/
 
-/* Extra small devices (phones, 600px and down) */
-	@media only screen and (min-device-width : 320px) {
-		/*Logo Header*********************************************/
-			#logo{
-				position: absolute;
-				margin-left: 5%;
-				margin-top: 5%;
+/* ---------- Iphone 4 , 4s ------------ */
+	@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 480px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: landscape) {
+		/*Botones navegación*/
+			#boton1, #boton2{
+				top: 88%;
 			}
-			#logo img{
-				width: 23%;
-				height: auto;
-			}
-		/*Navegación**********************************************/
-			#navegacion{
-				width: 100%;
-				height: 100%;
-				position: relative;
-				z-index: 998;
-			}
-			#navegacion section.ventana{
-				position: absolute;
-				width: 100%;
-				top: 0px;
-				left: 0px;
-			}
-		/*Home*/
-			#navegacion #home{
-				display: block;
-				height: 100%;
-				z-index: 999;
-			}
-
-		/*Portafolio**********************************************/
-			#navegacion #portafolio{
-				display: none;
-				height: 20%;
-				z-index: 999;
-			}
-			#portafolio h1{
-				margin-top: 25%;
-			}
-
-		/*Nosotros************************************************/
-			#navegacion #nosotros{
-				display: none;
-				height: 100%;
-				z-index: 999;
-			}
-			#nosotros h1{
-   			margin-top: 25%;
-			}
-			.elasticstack {
-				position: relative;
-				margin: -10% auto;
-				padding: 0;
-				width: 70%;
-				height: 60%;
-			}
-
-			.no-js .elasticstack {
-				max-width: 1090px;
-				width: 100%;
-				height: auto;
-				text-align: center;
-			}
-
-			.elasticstack li {
-				position: absolute;
-				z-index: 1;
-				width: 100% ;
-				height: 100%;
-				border-width: 20px 20px 50px 20px;
-			}
-
-			.no-js .elasticstack li {
-				position: relative;
-				display: inline-block;
-				opacity: 1;
-				margin: 10px;
-				cursor: default;
-				-webkit-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-
-			}
-
-			.elasticstack li img {
-				display: block;
-			  width: 100%;
-			  height: auto;
-			}
-
-			.elasticstack li h5 {
-				margin: 0 5px;
-				color: gray;
-				height: 60px;
-				text-align: right;
-				font-size: 1em;
-				font-family: 'Raleway', sans-serif;
-				line-height: 60px;
-			}
-
-
-		/*Extra****************************************************/
-			#navegacion #extra{
-					display: none;
-					height: 20%;
-					z-index: 999;
-			}
-			#extra h1{
-				margin-top: 20%;
-			}
-
-			/*Contacto************************************************/
-				#navegacion #contacto{
-					display: none;
-					height: 100%;
-					z-index: 992;
+			/*Logo Header*/
+				#logo{
+					margin-left: 5%;
+					margin-top: 3%;
 				}
-				#logo-contacto{
-					position: absolute;
-					z-index: 996;
-					margin: 5%;
-				}
-				#logo-contacto img{
-					width: 24.2%;
+				#logo img{
+					width: 15%;
 					height: auto;
 				}
-				#contacto h1{
-					position: relative;
-					color: gray;
-					font-size: 1.5em;
-					text-align: center;
-					margin-top: 80%;
-				}
 
-				#video-contacto1{
+			/*Home*/
+				#navegacion #home{
 					display: block;
-				}
-				#video-contacto2{
-					display: none ;
-				}
-
-			  #contacto #contraste a{
-						margin:3% 20%;
-						font-size: 1.3em;
-				}
-
-				#contacto	.social-networks {
-					position: relative;
-					margin-top: 20%;
-					text-align: center;
-					color: #2A2A2D;
-					font-size:  0.8em;
-				}
-	}
-	@media only screen and (min-device-width : 360px) {
-		/*Logo Header*********************************************/
-			#logo{
-				position: absolute;
-				margin-left: 5%;
-				margin-top: 5%;
-			}
-			#logo img{
-				width: 23%;
-				height: auto;
-			}
-		/*Navegación**********************************************/
-			#navegacion{
-				width: 100%;
-				height: 100%;
-				position: relative;
-				z-index: 998;
-			}
-			#navegacion section.ventana{
-				position: absolute;
-				width: 100%;
-				top: 0px;
-				left: 0px;
-			}
-		/*Home*/
-			#navegacion #home{
-				display: block;
-				height: 100%;
-				z-index: 999;
-			}
-
-		/*Portafolio**********************************************/
-			#navegacion #portafolio{
-				display: none;
-				height: 20%;
-				z-index: 999;
-			}
-			#portafolio h1{
-				margin-top: 25%;
-			}
-
-		/*Nosotros************************************************/
-			#navegacion #nosotros{
-				display: none;
-				height: 100%;
-				z-index: 999;
-			}
-			#nosotros h1{
-   			margin-top: 25%;
-			}
-			.elasticstack {
-				position: relative;
-				margin: -10% auto;
-				padding: 0;
-				width: 70%;
-				height: 50%;
-			}
-
-			.no-js .elasticstack {
-				max-width: 1090px;
-				width: 100%;
-				height: auto;
-				text-align: center;
-			}
-
-			.elasticstack li {
-				position: absolute;
-				z-index: 1;
-				width: 100% ;
-				height: 100%;
-				border-width: 20px 20px 50px 20px;
-			}
-
-			.no-js .elasticstack li {
-				position: relative;
-				display: inline-block;
-				opacity: 1;
-				margin: 10px;
-				cursor: default;
-				-webkit-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-
-			}
-
-			.elasticstack li img {
-				display: block;
-			  width: 100%;
-			  height: auto;
-			}
-
-			.elasticstack li h5 {
-				margin: 0 5px;
-				color: gray;
-				height: 60px;
-				text-align: right;
-				font-size: 1em;
-				font-family: 'Raleway', sans-serif;
-				line-height: 60px;
-			}
-
-
-		/*Extra****************************************************/
-			#navegacion #extra{
-					display: none;
-					height: 20%;
-					z-index: 999;
-			}
-			#extra h1{
-				margin-top: 20%;
-			}
-
-			/*Contacto************************************************/
-				#navegacion #contacto{
-					display: none;
 					height: 100%;
-					z-index: 992;
+					z-index: 999;
 				}
-				#logo-contacto{
-					position: absolute;
-					z-index: 996;
-					margin: 5%;
+				#video-home{
+					display: none;
 				}
-				#logo-contacto img{
-					width: 24.2%;
-					height: auto;
-				}
-				#contacto h1{
-					position: relative;
-					color: gray;
-					font-size: 1.5em;
-					text-align: center;
-					margin-top: 80%;
-				}
-
-				#video-contacto1{
+				#video-home2{
 					display: block;
 				}
-				#video-contacto2{
-					display: none ;
+				#home h1{
+					font-size: 1.2em;
+					text-align: left;
+					margin-top: 40%;
+					margin-left: 5%;
 				}
-
-			  #contacto #contraste a{
-						margin:3% 20%;
-						font-size: 1.5em;
-				}
-
-				#contacto	.social-networks {
-					margin-top: 50%;
-					font-size:  0.8em;
-				}
-	}
-	@media only screen and (min-device-width: 480px) {
-		/*VIDEOS*/
-		#video2{
-			display: block;
-		}
-		#video1{
-			display: none;
-		}
-
-		/*BOTONES NAVEGACIÓN*/
-		#boton1, #boton2{
- 			position: absolute;
- 			top: 85%;
- 		}
-
-
-		/*Logo Header*/
-		#logo, #logo-contacto{
-			margin-left: 5%;
-			margin-top: 2%;
-		}
-		#logo img{
-			width: 15%;
-			height: auto;
-		}
-
-		/*Home*/
-		#video-home{
-			display: none;
-		}
-		#video-home2{
-			display: block;
-		}
-		#home h1{
-			margin-top:-5%;
-			margin-left: 5%;
-			text-align: left;
-			font-size: 1.5em;
-		}
-
-		/*Portafolio*/
-		#portafolio h1{
-			margin-top:2.9%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
-		}
-
-		/*Nosotros*/
-		#nosotros h1{
-			margin-top:1.3%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
-		}
-
-		.elasticstack {
-			margin: 0% auto;
-			width: 40%;
-			height: 78%;
-		}
-
-		.elasticstack li {
-			width: 100% ;
-			height: 100%;
-			border-width: 20px 20px 100px 20px;
-		}
-
-		.elasticstack li h5 {
-			font-size: 0.9em;
-		}
-
-
-		/*Extra*/
-		#extra h1{
-			margin-top:1.2%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
-		}
-
-		/*Contacto*/
-		#logo-contacto{
-			display: block;
-		}
-		#logo-contacto img{
-			width: 15%;
-			height: auto;
-		}
-		#video-contacto{
-			display: none;
-		}
-		#video-contacto2{
-			display: block;
-		}
-		#contacto h1{
-			margin-top: 25%;
-		}
-	  #contacto #contraste a{
-				margin:3% 28%;
-				color: red;
-				font-size: 1.5em;
-		}
-		#contacto	.social-networks {
-			margin-top: 10%;
-			font-size:  0.8em;
-		}
-	}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-	@media only screen and (min-device-width: 600px) {
-		/*VIDEOS*/
-		#video2{
-			display: none;
-		}
-		#video1{
-			display: block;
-		}
-
-		/*BOTONES NAVEGACIÓN*/
-		#boton1, #boton2, #boton3{
- 			position: absolute;
- 			top: 85%;
- 		}
-		#boton3{
- 			left: 48%;
- 		}
-
-		/*Logo Header*/
-		#logo, #logo-contacto{
-			margin-left: 5%;
-			margin-top: 2%;
-		}
-		#logo img{
-			width: 15%;
-			height: auto;
-		}
-
-		/*Home*/
-		#video-home{
-			display: none;
-		}
-		#video-home2{
-			display: block;
-		}
-		#home h1{
-			margin-top:-5%;
-			margin-left: 5%;
-			text-align: left;
-			font-size: 1.5em;
-		}
-
-		/*Portafolio*/
-		#portafolio h1{
-			margin-top:2.9%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
-		}
-
-		/*Nosotros*/
-		#nosotros h1{
-			margin-top:1.3%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
-		}
-
-		.elasticstack {
-				margin-top: 5%;
-				width: 30%;
-				height: 70%;
-		}
-
-		.elasticstack li {
-			width: 100%;
-			height:100%;
-		}
-
-		.elasticstack li h5 {
-			font-size: 0.8em;
-		}
-
-
-		/*Extra*/
-		#extra h1{
-			margin-top:1.2%;
-			margin-left: 70%;
-			text-align: center;
-			font-size: 1.2em;
-		}
-
-		/*Contacto*/
-		#logo-contacto{
-			display: block;
-			margin-left: 5%;
-			margin-top: 2%;
-		}
-		#logo-contacto img{
-			width: 15%;
-			height: auto;
-		}
-		#video-contacto{
-			display: none;
-		}
-		#video-contacto2{
-			display: block;
-		}
-		#contacto h1{
-			margin-top: 25%;
-		}
-	  #contacto #contraste a{
-				margin:3% 33%;
-				color: red;
-				font-size: 1.5em;
-		}
-		#contacto	.social-networks {
-			margin-top: 10%;
-			font-size:  0.8em;
-		}
-	}
-
-/* Medium devices (landscape tablets, 768px and up) */
-	@media only screen and (min-device-width : 768px)  {
-		/*NAVEGACIÓN*/
-		.boton-nav{
- 			width: 50px;
- 			height:50px;
-		}
-		.boton-nav span{
-			font-size: 3em;
-		}
-		#boton1, #boton2, #boton3{
- 			position: absolute;
- 			top: 90%;
- 		}
- 		#boton3{
- 			left: 48%;
- 		}
-		/*VIDEOS*/
-		#video2{
-			display: block;
-		}
-		#video1{
-			display: none;
-		}
-
-		/*Logo Header*/
-		#logo, #logo-contacto{
-			margin: 5%;
-		}
-		#logo img{
-			width: 20%;
-			height: auto;
-		}
-
-		/*Home*/
-		#video-home{
-			border:1px solid red;
-			display: block;
-		}
-		#video-home2{
-			display: none;
-		}
-		#home h1{
-				margin-left: 0%;
-				font-size: 2.5em;
-				text-align: center;
-
-			}
 			/*Portafolio*/
-		#portafolio h1{
-				margin-top: 18.9%;
-				margin-left: 0%;
-				font-size: 2.5em;
-			}
+				#portafolio .subtitulo-proyectos{
+					font-size: 1em;
+					margin-top: 15%;
+					margin-left: 10%;
+				}
+				#portafolio .contenedor-proyectos{
+					width: 80%;
+					height: 50%;
+					margin: 0% 10% 10% 10%;
+					padding: 2%;
+				}
+				#portafolio .proyecto {
+					width: 35%;
+					display: inline-grid;
+					margin-top: 0%;
+					margin-left: 10%;
+				}
+				#portafolio h1{
+					font-size: 1em;
+					margin-top: -7%;
+					margin-left: 70%;
+				}
+
 
 			/*Nosotros*/
-		#nosotros h1{
-			margin-top: 18.5%;
-			margin-left: 0%;
-			font-size: 2.5em;
-			text-align: center;
-		}
-		.elasticstack {
-		  margin-top: -7%;
-			width: 60%;
-			height: 60%;
-		}
-		.elasticstack li {
-			width: 100%;
-			height:99%;
-			border-width: 40px 40px 120px 40px;
-		}
+				#nosotros h1{
+					font-size: 1em;
+					margin-top: -18.5%;
+					margin-left: 70%;
+				}
+				.elasticstack {
+					margin: 10% auto;
+					padding: 0;
+					width: 45%;
+					height: 80%;
+				}
+				.elasticstack li {
 
-		 .elasticstack li h5 {
-				font-size: 2em;
-		}
-			/*Extra*/
-			#extra h1{
-				margin-top: 15%;
-				margin-left: 0%;
-				font-size: 2.5em;
-			}
+					height: 93%;
+					border-width: 25px 20px 45px 20px;
+					border-style: solid;
+					border-color: #fff;
+					box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
+					opacity: 0;
+					cursor: pointer;
+					-webkit-transform: translate3d(0,0,-180px);
+					transform: translate3d(0,0,-180px);
+					-webkit-transform-style: preserve-3d;
+					transform-style: preserve-3d;
+				}
+				.elasticstack li h5 {
+					text-align: right;
+					font-size: 0.9em;
+					line-height: 35px;
+				}
+
 
 			/*Contacto*/
-			#logo-contacto{
-				margin: 5%;
-			}
-			#logo-contacto img{
-				width: 20%;
-				height: auto;
-			}
-			#video-contacto{
-				display: block;
-			}
-			#video-contacto2{
-				display: none;
+				#contacto h1{
+						font-size: 1.5em;
+						margin-top: 30%;
+					}
+				#video-contacto1{
+						display: none;
+					}
+				#video-contacto2{
+						display: block;
+					}
+			  #contacto #contraste a{
+					margin-left: 27.3%;
+					font-size: 1.5em;
+				}
+				#contacto	.dside-footer{
+					margin-top: 5%;
+					font-size:  0.8em;
+				}
+	 }
 
-			}
-			#contacto h1{
-				margin-top: 60%;
-				font-size: 2.5em;
-			}
-		  #contacto #contraste a{
-					margin:3% 28%;
-					font-size: 2.3em;
-			}
-			#contacto	.social-networks {
-				margin-top: 35%;
-				font-size:  1.5em;
-			}
+/* ---------------Iphone 5, 5S ,5C ,5SE ---------------- */
+	 @media only screen
+	 and (min-device-width: 320px)
+	 and (min-device-height: 481px)
+	 and (-webkit-min-device-pixel-ratio: 2)
+	 and (orientation: portrait) {
+		 /*Logo Header*********************************************/
+		 	#logo{
+		 		margin-left: 5%;
+		 		margin-top: 5%;
+		 	}
+		 	#logo img{
+		 		width: 23%;
+		 		height: auto;
+		 	}
+
+		 /*Home*/
+		 	#video-home{
+		 		display: block;
+		 	}
+		 	#video-home2{
+		 		display: none;
+		 	}
+		 	#home h1{
+		 		font-size: 1.7em;
+		 		margin-top: 85%;
+		 	}
+
+		 /*Portafolio*/
+		 	#portafolio .subtitulo-proyectos{
+		 		font-size: 1.2em;
+		 		font-size: 1.2em;
+		    margin-top: 30%;
+		    margin-left: 10%;
+		   }
+		 	#portafolio .contenedor-proyectos{
+		 		width: 90%;
+		    height: 50%;
+		    margin: 0% 10% 10% 5%;
+		    padding: 2%;
+		 	}
+		 	#portafolio .proyecto {
+		 		width: 43%;
+		    margin-top: 8%;
+		    margin-left: 5%;
+		 	}
+
+		 	#portafolio h1{
+		 		font-size: 1.5em;
+		 		margin-top: 0%;
+		 	}
+
+
+		 /*Nosotros*/
+		 	#nosotros h1{
+		    font-size: 1.5em;
+		    margin-top: -17.5%;
+		 	}
+		 	.elasticstack {
+		 		margin: 35% auto;
+		    padding: 0;
+		    width: 70%;
+		    height: 50%;
+		 	}
+		 	.elasticstack li {
+		 		width: 100%;
+		    height: 94%;
+		    border-width: 25px 20px 60px 20px;
+		 	}
+		 	.elasticstack li h5 {
+		 		font-size: 1.05em;
+		 		line-height: 60px;
+		 	}
+
+
+		 /*Contacto*/
+		 	#video-contacto2{
+		 		display: none;
+		 	}
+		  #contacto	.dside-footer{
+		 		margin-top: 35%;
+		 	}
+    }
+
+	 @media only screen
+	 and (min-device-width: 568px)
+	 and (max-device-height: 320px)
+	 and (-webkit-min-device-pixel-ratio: 2)
+	 and (orientation: landscape) {
+			/*Botones navegación*/
+				#boton1, #boton2{
+					top: 88%;
+				}
+
+			/*Logo Header*/
+				#logo{
+					margin-left: 5%;
+					margin-top: 3%;
+				}
+				#logo img{
+					width: 15%;
+					height: auto;
+				}
+
+			/*Home*/
+				#navegacion #home{
+					display: block;
+					height: 100%;
+					z-index: 999;
+				}
+				#video-home{
+					display: none;
+				}
+				#video-home2{
+					display: block;
+				}
+				#home h1{
+					font-size: 1.2em;
+					text-align: left;
+					margin-top: 35%;
+					margin-left: 5%;
+				}
+			/*Portafolio*/
+				#portafolio .subtitulo-proyectos{
+					font-size: 1em;
+					margin-top: 15%;
+					margin-left: 10%;
+				}
+				#portafolio .contenedor-proyectos{
+					width: 80%;
+					height: 50%;
+					margin: 0% 10% 10% 10%;
+					padding: 2%;
+				}
+				#portafolio .proyecto {
+					width: 35%;
+					display: inline-grid;
+					margin-top: 0%;
+					margin-left: 10%;
+				}
+				#portafolio h1{
+					font-size: 1em;
+					margin-top: -10%;
+					margin-left: 72%;
+				}
+
+			/*Nosotros*/
+				#nosotros h1{
+					font-size: 1em;
+					margin-top: -12.5%;
+					margin-left: 70%;
+				}
+				.elasticstack {
+					margin: 10% auto;
+					padding: 0;
+					width: 35%;
+					height: 68%;
+				}
+				.elasticstack li {
+					height: 100%;
+   				border-width: 25px 20px 45px 20px;
+					border-style: solid;
+				}
+				.elasticstack li h5 {
+					text-align: right;
+					font-size: 0.9em;
+					line-height: 35px;
+				}
+
+			/*Contacto*/
+				#contacto h1{
+							font-size: 1.5em;
+							margin-top: 30%;
+						}
+				#video-contacto1{
+							display: none;
+						}
+				#video-contacto2{
+							display: block;
+						}
+			  #contacto #contraste a{
+					margin-left: 31%;
+					font-size: 1.5em;
+				}
+				#contacto	.dside-footer{
+						margin-top: 2%;
+						font-size:  0.8em;
+					}
+		 }
+
+/* ---------------Iphone 6, 6S ,7 ,8 ---------------- */
+ 	 @media only screen
+ 	 and (min-device-width: 375px)
+ 	 and (min-device-height: 569px)
+ 	 and (-webkit-min-device-pixel-ratio: 2)
+ 	 and (orientation: portrait){
+		 /*Logo Header*/
+  		 	#logo{
+	 		 		margin-left: 5%;
+	 		 		margin-top: 5%;
+	 		 	}
+	 		 	#logo img{
+	 		 		width: 23%;
+	 		 		height: auto;
+	 		 	}
+
+ 		 /*Home*/
+	 		 	#video-home{
+	 		 		display: block;
+	 		 	}
+	 		 	#video-home2{
+	 		 		display: none;
+	 		 	}
+	 		 	#home h1{
+	 		 		font-size: 1.7em;
+	 		 		margin-top: 85%;
+	 		 	}
+
+ 		 /*Portafolio*/
+	 		 	#portafolio .subtitulo-proyectos{
+	 		 		font-size: 1.4em;
+	 		    margin-top: 35%;
+	 		    margin-left: 13%;
+ 		    }
+  		 	#portafolio .contenedor-proyectos{
+	 		 		width: 90%;
+	 		    height: 50%;
+	 		    margin: 0% 10% 10% 5%;
+	 		    padding: 2%;
+	 		 	}
+	 		 	#portafolio .proyecto {
+	 		 		width: 43%;
+	 		    margin-top: 12%;
+	 		    margin-left: 5%;
+	 		 	}
+	 		 	#portafolio h1{
+	 		 		font-size: 1.5em;
+	 		 		margin-top: 0%;
+	 		 	}
+
+		 /*Nosotros*/
+	 		 	#nosotros h1{
+	 		    font-size: 1.5em;
+	 		    margin-top: -17.5%;
+	 		 	}
+	 		 	.elasticstack {
+	 		 		margin: 35% auto;
+	 		    padding: 0;
+	 		    width: 80%;
+	 		    height: 53%;
+	 		 	}
+	 		 	.elasticstack li {
+	 		 		width: 100%;
+	 		    height: 100%;
+	 		    border-width: 30px 30px 85px 30px;
+	 		 	}
+	 		 	.elasticstack li h5 {
+	 		 		font-size: 1.3em;
+	 		 		line-height: 65px;
+	 		 	}
+
+		 /*Contacto*/
+	 		 	#video-contacto2{
+	 		 		display: none;
+	 		 	}
+				#contacto #contraste a{
+						margin-left: 21.5%;
+				}
+	 		  #contacto	.dside-footer{
+					font-size: 1em;
+	 		 		margin-top: 40%;
+	 		 	}
+	 }
+
+	@media only screen
+	and (min-device-width: 667px)
+  and (max-device-height: 375px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: landscape) {
+
+		 /*Botones navegación*/
+			 #boton1, #boton2{
+				 top: 88%;
+			 }
+
+		 /*Logo Header*/
+			 #logo{
+				 margin-left: 5%;
+				 margin-top: 3%;
+			 }
+			 #logo img{
+				 width: 15%;
+				 height: auto;
+			 }
+
+		 /*Home*/
+			 #navegacion #home{
+				 display: block;
+				 height: 100%;
+				 z-index: 999;
+			 }
+			 #video-home{
+				 display: none;
+			 }
+			 #video-home2{
+				 display: block;
+			 }
+			 #home h1{
+				 font-size: 1.3em;
+				 text-align: left;
+				 margin-top: 35%;
+				 margin-left: 5%;
+			 }
+		 /*Portafolio*/
+			 #portafolio .subtitulo-proyectos{
+				 font-size: 1.2em;
+				 margin-top: 14%;
+				 margin-left: 10%;
+			 }
+			 #portafolio .contenedor-proyectos{
+				 width: 80%;
+				 height: 50%;
+				 margin: 0% 10% 10% 10%;
+				 padding: 2%;
+			 }
+			 #portafolio .proyecto {
+				 width: 35%;
+				 display: inline-grid;
+				 margin-top: 0%;
+				 margin-left: 10%;
+			 }
+			 #portafolio h1{
+				 font-size: 1.2em;
+				 margin-top: -10%;
+				 margin-left: 72%;
+			 }
+
+		 /*Nosotros*/
+			 #nosotros h1{
+				 font-size: 1.2em;
+				 margin-top: -12.5%;
+				 margin-left: 73%;
+			 }
+			 .elasticstack {
+				 margin: 10% auto;
+				 padding: 0;
+				 width: 35%;
+				 height: 68%;
+			 }
+			 .elasticstack li {
+				 height: 100%;
+				 border-width: 25px 20px 45px 20px;
+				 border-style: solid;
+			 }
+			 .elasticstack li h5 {
+				 text-align: right;
+				 font-size: 1.1em;
+				 line-height: 35px;
+			 }
+
+		 /*Contacto*/
+			 #contacto h1{
+						 font-size: 1.5em;
+						 margin-top: 30%;
+					 }
+			 #video-contacto1{
+						 display: none;
+					 }
+			 #video-contacto2{
+						 display: block;
+					 }
+			 #contacto #contraste a{
+				 position: relative;
+				 margin-left: 33.5%;
+				 font-size: 1.5em;
+			 }
+			 #contacto	.dside-footer{
+					 margin-top: 3%;
+					 font-size:  1em;
+				 }
+		}
+
+/* ---------------Iphone 6,7,8 PLUS ---------------- */
+	@media only screen
+	and (min-device-width: 414px)
+	and (min-device-height: 668px)
+	and (-webkit-min-device-pixel-ratio: 3)
+	and (orientation: portrait){
+		/*Botones Navegación*/
+				.boton-nav{
+					width: 8%;
+					height: 8%;
+				}
+				.boton-nav span{
+					font-size: 2em;
+				}
+		 /*Logo Header*/
+			 	#logo{
+	 		 		margin-left: 5%;
+	 		 		margin-top: 5%;
+	 		 	}
+	 		 	#logo img{
+	 		 		width: 23%;
+	 		 		height: auto;
+	 		 	}
+
+		 /*Home*/
+			 	#video-home{
+	 		 		display: block;
+	 		 	}
+	 		 	#video-home2{
+	 		 		display: none;
+			 	}
+	 		 	#home h1{
+	 		 		font-size: 1.8em;
+	 		 		margin-top: 85%;
+	 		 	}
+
+		 /*Portafolio*/
+	 		 	#portafolio .subtitulo-proyectos{
+	 		 		font-size: 1.4em;
+	 		    margin-top: 35%;
+	 		    margin-left: 13%;
+		    }
+	 		 	#portafolio .contenedor-proyectos{
+	 		 		width: 90%;
+	 		    height: 50%;
+	 		    margin: 0% 10% 10% 5%;
+	 		    padding: 2%;
+			 	}
+	 		 	#portafolio .proyecto {
+	 		 		width: 43%;
+	 		    margin-top: 12%;
+			    margin-left: 5%;
+	 		 	}
+	 		 	#portafolio h1{
+	 		 		font-size: 1.8em;
+	 		 		margin-top: 0%;
+	 		 	}
+
+		 /*Nosotros*/
+			 	#nosotros h1{
+	 		    font-size: 1.8em;
+	 		    margin-top: -5.5%;
+	 		 	}
+	 		 	.elasticstack {
+	 		 		margin: 35% auto;
+	 		    padding: 0;
+	 		    width: 70%;
+	 		    height: 45%;
+	 		 	}
+			 	.elasticstack li {
+	 		 		width: 100%;
+	 		    height: 100%;
+	 		    border-width: 30px 30px 85px 30px;
+	 		 	}
+			 	.elasticstack li h5 {
+	 		 		font-size: 1.35em;
+	 		 		line-height: 65px;
+	 		 	}
+
+		 /*Contacto*/
+	 		 	#video-contacto2{
+	 		 		display: none;
+	 		 	}
+				#contacto #contraste a{
+					margin-left: 21%;
+					font-size: 1.7em;
+				}
+	 		  #contacto	.dside-footer{
+					font-size: 1.2em;
+	 		 		margin-top: 40%;
+	 		 	}
 	}
+
+	@media only screen
+	and (min-device-width: 736px)
+	and (max-device-height: 414px)
+	and (-webkit-min-device-pixel-ratio: 3)
+	and (orientation: landscape) {
+
+		 /*Botones navegación*/
+			 #boton1, #boton2{
+				 top: 88%;
+			 }
+
+		 /*Logo Header*/
+			 #logo{
+				 margin-left: 5%;
+				 margin-top: 3%;
+			 }
+			 #logo img{
+				 width: 15%;
+				 height: auto;
+			 }
+
+		 /*Home*/
+			 #navegacion #home{
+				 display: block;
+				 height: 100%;
+				 z-index: 999;
+			 }
+			 #video-home{
+				 display: none;
+			 }
+			 #video-home2{
+				 display: block;
+			 }
+			 #home h1{
+				 font-size: 1.3em;
+				 text-align: left;
+				 margin-top: 35%;
+				 margin-left: 5%;
+			 }
+
+	  /*Portafolio*/
+			 #portafolio .subtitulo-proyectos{
+				 font-size: 1.2em;
+				 margin-top: 14%;
+				 margin-left: 10%;
+			 }
+			 #portafolio .contenedor-proyectos{
+				 width: 80%;
+				 height: 50%;
+				 margin: 0% 10% 10% 10%;
+				 padding: 2%;
+			 }
+			 #portafolio .proyecto {
+				 width: 35%;
+				 display: inline-grid;
+				 margin-top: 0%;
+				 margin-left: 10%;
+	    }
+			#portafolio h1{
+				 font-size: 1.4em;
+				 margin-top: -10%;
+				 margin-left: 72%;
+			}
+
+		/*Nosotros*/
+			#nosotros h1{
+		    font-size: 1.4em;
+				margin-top: -12.5%;
+				margin-left: 73%;
+			}
+			.elasticstack {
+			  margin: 10% auto;
+			  padding: 0;
+				width: 35%;
+			  height: 68%;
+			}
+			.elasticstack li {
+			  height: 100%;
+			  border-width: 25px 20px 45px 20px;
+			  border-style: solid;
+		  }
+			.elasticstack li h5 {
+			  text-align: right;
+			  font-size: 1.1em;
+			  line-height: 35px;
+		  }
+
+		/*Contacto*/
+		 #contacto h1{
+			 font-size: 1.6em;
+			 margin-top: 30%;
+		 }
+		 #video-contacto1{
+			 display: none;
+		 }
+		 #video-contacto2{
+			 display: block;
+		 }
+		 #contacto #contraste a{
+			 position: relative;
+			 margin-left: 34.5%;
+			 font-size: 1.6em;
+		}
+		#contacto	.dside-footer{
+			 margin-top: 3%;
+			 font-size:  1.2em;
+		}
+}
+
+/* ---------------Iphone X ---------------- */
+ 	 @media only screen
+ 	 and (min-device-width: 375px)
+ 	 and (min-device-height: 737px)
+ 	 and (-webkit-min-device-pixel-ratio: 3)
+ 	 and (orientation: portrait){
+		 /*Botones Navegación*/
+ 				.boton-nav{
+ 					width: 9%;
+ 					height: 4%;
+ 				}
+ 				.boton-nav span{
+ 					font-size: 2em;
+ 				}
+		 /*Logo Header*/
+  		 	#logo{
+	 		 		margin-left: 5%;
+	 		 		margin-top: 5%;
+	 		 	}
+	 		 	#logo img{
+	 		 		width: 25%;
+	 		 		height: auto;
+	 		 	}
+
+ 		 /*Home*/
+	 		 	#video-home{
+	 		 		display: block;
+	 		 	}
+	 		 	#video-home2{
+	 		 		display: none;
+	 		 	}
+	 		 	#home h1{
+	 		 		font-size: 2em;
+	 		 		margin-top: 95%;
+	 		 	}
+
+ 		 /*Portafolio*/
+	 		 	#portafolio .subtitulo-proyectos{
+	 		 		font-size: 1.5em;
+	 		    margin-top: 35%;
+	 		    margin-left: 9%;
+ 		    }
+  		 	#portafolio .contenedor-proyectos{
+	 		 		width: 90%;
+	 		    height: 50%;
+	 		    margin: 0% 10% 10% 5%;
+	 		    padding: 2%;
+	 		 	}
+	 		 	#portafolio .proyecto {
+	 		 		width: 43%;
+	 		    margin-top: 12%;
+	 		    margin-left: 5%;
+	 		 	}
+	 		 	#portafolio h1{
+	 		 		font-size: 2em;
+	 		 		margin-top: -5%;
+	 		 	}
+
+		 /*Nosotros*/
+	 		 	#nosotros h1{
+	 		    font-size: 2em;
+	 		    margin-top: -9%;
+	 		 	}
+	 		 	.elasticstack {
+	 		 		margin: 40% auto;
+	 		    padding: 0;
+	 		    width: 80%;
+	 		    height: 42%;
+	 		 	}
+	 		 	.elasticstack li {
+	 		 		width: 100%;
+	 		    height: 100%;
+	 		    border-width: 30px 30px 85px 30px;
+	 		 	}
+	 		 	.elasticstack li h5 {
+	 		 		font-size: 1.45em;
+	 		 		line-height: 75px;
+	 		 	}
+
+		 /*Contacto*/
+	 		 	#video-contacto2{
+	 		 		display: none;
+	 		 	}
+
+				#contacto h1{
+					position: relative;
+					font-size: 1.8em;
+					text-align: center;
+					margin-top: 80%;
+				}
+				#contacto #contraste a{
+					font-size: 1.8em;
+					margin-left: 16%;
+				}
+	 		  #contacto	.dside-footer{
+					font-size: 1.19em;
+	 		 		margin-top: 50%;
+	 		 	}
+	 }
+
+	@media only screen
+	and (min-device-width: 812px)
+  and (max-device-height: 375px)
+	and (-webkit-min-device-pixel-ratio: 3)
+	and (orientation: landscape) {
+
+		/*Botones Navegación*/
+			 .boton-nav{
+				 width: 4%;
+				 height: 8%;
+			 }
+			 .boton-nav span{
+				 font-size: 2em;
+			 }
+			 #boton1, #boton2{
+				 top: 85%;
+			 }
+
+		 /*Logo Header*/
+			 #logo{
+				 margin-left: 5%;
+				 margin-top: 3%;
+			 }
+			 #logo img{
+				 width: 12%;
+				 height: auto;
+			 }
+
+		 /*Home*/
+			 #navegacion #home{
+				 display: block;
+				 height: 100%;
+				 z-index: 999;
+			 }
+			 #video-home{
+				 display: none;
+			 }
+			 #video-home2{
+				 display: block;
+			 }
+			 #home h1{
+				 font-size: 1.5em;
+				 text-align: left;
+				 margin-top: 28%;
+				 margin-left: 5%;
+			 }
+		 /*Portafolio*/
+			 #portafolio .subtitulo-proyectos{
+				 font-size: 1.2em;
+				 margin-top: 12%;
+				 margin-left: 10%;
+			 }
+			 #portafolio .contenedor-proyectos{
+				 width: 80%;
+				 height: 50%;
+				 margin: 0% 10% 10% 10%;
+				 padding: 2%;
+			 }
+			 #portafolio .proyecto {
+				 width: 28%;
+				 display: inline-grid;
+				 margin-top: 0%;
+				 margin-left: 15%;
+			 }
+			 #portafolio h1{
+				 font-size: 1.3em;
+				 margin-top: -11.5%;
+				 margin-left: 72%;
+			 }
+
+		 /*Nosotros*/
+			 #nosotros h1{
+				 font-size: 1.3em;
+				 margin-top: -12.5%;
+				 margin-left: 73%;
+			 }
+			 .elasticstack {
+				 margin: 8% auto;
+				 padding: 0;
+				 width: 30%;
+				 height: 70%;
+			 }
+			 .elasticstack li {
+				 height: 100%;
+				 border-width: 25px 20px 55px 20px;
+				 border-style: solid;
+			 }
+			 .elasticstack li h5 {
+				 text-align: right;
+				 font-size: 1.1em;
+				 line-height: 35px;
+			 }
+
+		 /*Contacto*/
+			 #contacto h1{
+						 font-size: 1.5em;
+						 margin-top: 20%;
+					 }
+			 #video-contacto1{
+						 display: none;
+					 }
+			 #video-contacto2{
+						 display: block;
+					 }
+			 #contacto #contraste a{
+				 position: relative;
+				 margin-left: 36.5%;
+				 font-size: 1.5em;
+			 }
+			 #contacto	.dside-footer{
+					 margin-top: 3%;
+					 font-size:  1em;
+				 }
+		}
+
 
 	/* Large devices (laptops/desktops, 992px and up) */
 	@media only screen and (min-device-width: 992px) {

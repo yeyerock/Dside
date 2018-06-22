@@ -2,12 +2,11 @@
 /*Navegación*/
 	function displaySection(navegar){
 
-		var sections = new Array(4);
+		var sections = new Array(3);
 		sections[0] = "home";
 		sections[1] = "portafolio";
 		sections[2] = "nosotros";
-		sections[3] = "extra";
-		sections[4] = "contacto";
+		sections[3] = "contacto";
 
 		var search;
 		var show;
@@ -15,7 +14,7 @@
 		var boton1 = "boton1";
 		var boton2 = "boton2";
 
-		for(var i=0; i<5; i++){
+		for(var i=0; i<4; i++){
 			search = document.getElementById(sections[i]);
 			show = search.style.display;
 			trans = search.style.height;
@@ -24,19 +23,15 @@
 				search.style.display = "none";
 				if(navegar == "adelante"){
 					i++;
-					if(i>4)
+					if(i>3)
 						i = 0;
 				}
 				else if(navegar == "atras"){
 					i--;
 					if(i<0)
-						i = 4;
+						i = 3;
 				}
 
-				else if(navegar == "contacto"){
-					search = document.getElementById(sections[4]);
-
-				}
 				search = document.getElementById(sections[i]);
 				search.style.display = "block";
 				search.style.height = "100%";
@@ -46,27 +41,6 @@
 		}
 	}
 
-/*Mostrar contacto*/
-	function displayContact(){
-
-		var contact = "contacto";
-		var search;
-		var show;
-
-
-		search = document.getElementById(contact);
-		show = search.style.display;
-
-		if(show == "none"){
-			search = document.getElementById(contact);
-			search.style.display = "block";
-		}
-		else{
-			search = document.getElementById(contact);
-			search.style.display = "none";
-		}
-
-	}
 
 /*Ocultar videos home*//*
 $('#video-home').delay(1000).fadeOut();
