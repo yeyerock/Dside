@@ -451,7 +451,7 @@
 	}
 
 
-/* ---------- Iphone 4 , 4s ------------ */
+/* ---------- Iphone 4 , 4s Horizontal ------------ */
 	@media only screen
 	and (min-device-width: 212px)
 	and (max-device-width: 480px)
@@ -459,10 +459,10 @@
 	and (orientation: landscape) {
 
 		/*Botones navegación*/
-			#boton1, #boton2{
-				top: 85%;
-			}
-			/*Logo Header*/
+				#boton1, #boton2{
+					top: 85%;
+				}
+	  /*Logo Header*/
 				#logo{
 					margin-left: 5%;
 					margin-top: 3%;
@@ -471,18 +471,17 @@
 					width: 15%;
 					height: auto;
 				}
-
-			/*Home*/
+		/*Home*/
 				#navegacion #home{
-					display: block;
-					height: 100%;
-					z-index: 999;
+						display: block;
+						height: 100%;
+						z-index: 999;
 				}
 				#video-home{
-					display: none;
+						display: none;
 				}
 				#video-home2{
-					display: block;
+						display: block;
 				}
 				#home h1{
 					font-size: 1.2em;
@@ -490,82 +489,78 @@
 					margin-top: 25%;
 					margin-left: 5%;
 				}
-			/*Portafolio*/
+		/*Portafolio*/
 				#portafolio .subtitulo-proyectos{
-					font-size: 1em;
-					margin-top: 12%;
-					margin-left: 10%;
+						font-size: 1em;
+						margin-top: 12%;
+						margin-left: 10%;
 				}
 				#portafolio .contenedor-proyectos{
-					width: 80%;
-					height: 50%;
-					margin: 0% 10% 10% 10%;
-					padding: 2%;
+						width: 80%;
+						height: 50%;
+						margin: 0% 10% 10% 10%;
+						padding: 2%;
 				}
 				#portafolio .proyecto {
-					width:25%;
-					display: inline-grid;
-					margin-top: 0%;
-					margin-left: 15%;
+						width:25%;
+						display: inline-grid;
+						margin-top: 0%;
+						margin-left: 15%;
 				}
 				#portafolio h1{
-					font-size: 1em;
-					margin-top: -14%;
-					margin-left: 70%;
+						font-size: 1em;
+						margin-top: -14%;
+						margin-left: 70%;
 				}
-
-
-			/*Nosotros*/
+		/*Nosotros*/
 				#nosotros h1{
-					font-size: 1em;
-					margin-top: -12%;
-					margin-left: 70%;
+						font-size: 1em;
+						margin-top: -12%;
+						margin-left: 70%;
 				}
 				.elasticstack {
-					margin: 5% auto;
-					padding: 0;
-					width: 35%;
-					height: 80%;
+						margin: 5% auto;
+						padding: 0;
+						width: 35%;
+						height: 80%;
 				}
 				.elasticstack li {
-					height: 100%;
-					border-width: 15px 15px 65px 15px;
-					border-style: solid;
-					border-color: #fff;
-					box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
-					opacity: 0;
-					cursor: pointer;
-					-webkit-transform: translate3d(0,0,-180px);
-					transform: translate3d(0,0,-180px);
-					-webkit-transform-style: preserve-3d;
-					transform-style: preserve-3d;
+						height: 100%;
+						border-width: 15px 15px 65px 15px;
+						border-style: solid;
+						border-color: #fff;
+						box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
+						opacity: 0;
+						cursor: pointer;
+						-webkit-transform: translate3d(0,0,-180px);
+						transform: translate3d(0,0,-180px);
+						-webkit-transform-style: preserve-3d;
+						transform-style: preserve-3d;
 				}
-				.elasticstack li h5 {
-					text-align: right;
-					font-size: 0.7em;
-					line-height: 20px;
+		  	.elasticstack li h5 {
+						text-align: right;
+						font-size: 0.7em;
+						line-height: 20px;
 				}
-
-
-			/*Contacto*/
+		/*Contacto*/
 				#contacto h1{
 						font-size: 1.3em;
 						margin-top: 15%;
-					}
+				}
 				#video-contacto1{
 						display: none;
-					}
+				}
 				#video-contacto2{
 						display: block;
-					}
+				}
 			  #contacto #contraste a{
-					margin-left: 30%;
-					font-size: 1.3em;
+						margin-left: 30%;
+						font-size: 1.3em;
 				}
 				#contacto	#contraste a:hover{
 						color: #781E1F;
 				}
-			 #contacto #contraste a::after{
+			  #contacto #contraste a::after{
 						content: '';
 						display: block;
 						width: 0;
