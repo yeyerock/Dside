@@ -757,6 +757,7 @@
 					padding: 0;
 					width: 35%;
 					height: 65%;
+					border: 1px solid red;
 			}
 			.elasticstack li {
 					height: 100%;
