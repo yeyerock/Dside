@@ -2458,6 +2458,7 @@
 		and (-webkit-min-device-pixel-ratio: 2)
 		and (orientation: portrait){
 
+
 			/*Botones Navegación*/
 				.boton-nav{
 						width: 8%;
@@ -2507,7 +2508,7 @@
 			 }
 			 #portafolio h1{
 			     font-size: 3em;
-					 margin-top: 15%;
+					 margin-top: 10%;
 			 }
 
 		/*Nosotros*/
@@ -2516,9 +2517,9 @@
 					margin-top: 10%;
 			 }
 			 .elasticstack {
-			   margin: 35% auto 0% auto;
+			   margin: 30% auto 0% auto;
 				 padding: 0;
-				 width: 60%;
+				 width: 55%;
 				 height: 50%;
 		   }
 			.elasticstack li {
@@ -2537,11 +2538,11 @@
 			}
 			#contacto h1{
 					font-size: 3em;
-					margin-top: 75%;
+					margin-top: 65%;
 			}
 			#contacto #contraste a{
 					font-size: 3em;
-					margin-left: 23%;
+					margin-left: 21%;
 			}
 			#contacto	#contraste a:hover{
 					color: #781E1F;
