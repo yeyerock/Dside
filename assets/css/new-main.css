@@ -607,16 +607,11 @@
 	 		 }
 
 	  /*Portafolio*/
-	 		 	#portafolio .subtitulo-proyectos{
-	 		 		font-size: 1.2em;
-	 		 		font-size: 1.2em;
-	 		    margin-top: 30%;
-	 		    margin-left: 10%;
-	 		  }
+
 	 		 	#portafolio .contenedor-proyectos{
 	 		 		width: 90%;
 	 		    height: 50%;
-	 		    margin: 0% 10% 0% 3%;
+	 		    margin: 30% 10% 0% 3%;
 	 		    padding: 2%;
 	 		 	}
 	 		 	#portafolio .proyecto {
@@ -723,15 +718,11 @@
 					margin-left: 5%;
 			}
 	 /*Portafolio*/
-			#portafolio .subtitulo-proyectos{
-					font-size: 1em;
-					margin-top: 15%;
-					margin-left: 10%;
-			}
+
 			#portafolio .contenedor-proyectos{
 					width: 80%;
 					height: 50%;
-					margin: 0% 10% 0% 10%;
+					margin: 35% 10% 0% 10%;
 					padding: 2%;
 			}
 			#portafolio .proyecto {
