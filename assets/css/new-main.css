@@ -748,7 +748,6 @@
 					padding: 0;
 					width: 35%;
 					height: 35%;
-					border: 1px solid red;
 			}
 			.elasticstack li {
 					height: 100%;
@@ -795,6 +794,106 @@
 					margin-top: 4%;
 					font-size:  0.8em;
 			}
+	}
+/* ---------------Android Medium-Large Screen Size Horizontal----------*/
+	@media only screen
+	and (min-device-width: 260px)
+	and (max-device-width: 640px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: landscape) {
+		/*Botones navegación*/
+				#boton1, #boton2{
+					top: 85%;
+				}
+  	/*Logo Header*********************************************/
+	 	   #logo{
+	  	 		margin-left: 5%;
+	 		 		margin-top: 2%;
+	 		 }
+	 		 #logo img{
+			 		width: 12%;
+	 		 		height: auto;
+	 		 }
+
+	 	/*Home*/
+	 		 #video-home{
+	 		 		display: none;
+	 		 }
+	 		 #video-home2{
+	 		 		display: block;
+	 		 }
+	 		 #home h1{
+	 		 		font-size: 1.7em;
+	 		 		margin-top: 25%;
+  		 }
+ 	 /*Portafolio*/
+
+	 	 	 #portafolio .contenedor-proyectos{
+	 	 	 		width: 80%;
+	 	 	    height: 50%;
+	 	 	    margin: 15% 10% 0% 10%;
+	 	 	    padding: 2%;
+	 	 	 }
+	 	 	 #portafolio .proyecto {
+	 	 			width: 25%;
+	 	 		  margin-top: 0%;
+	 	 		  margin-left: 15%;
+	 	 	 }
+	 	 	 #portafolio h1{
+	 	 	 		font-size: 1em;
+	 	 	 		margin-top: 0%;
+					margin-left: 75%;
+	 	 	 }
+
+	 /*Nosotros*/
+	  	 #nosotros h1{
+		 	 	  font-size: 1em;
+		 	 	  margin-top: -3.5%;
+					margin-left: 75%;
+		 	 }
+		 	 .elasticstack {
+		 	 	 	margin: 10% auto 0% auto;
+		 	 	  padding: 0;
+		 	 	  width: 35%;
+		 	 	  height: 65%;
+		 	 }
+		 	 .elasticstack li {
+		 	 		 	width: 100%;
+		 	 		  height: 100%;
+		 	 		  border-width: 20px 20px 70px 20px;
+		 	 	 }
+		 	 .elasticstack li h5 {
+		 	 		 	font-size: 0.8em;
+		 	 		 	line-height: 25px;
+		 	 	 }
+	 /*Contacto*/
+	 	 	 #video-contacto2{
+	 	 		 	display: none;
+	 	 	 }
+	 	 	 #contacto	#contraste h1{
+	 	 			margin-top: 20%;
+	 	 	 }
+	 		 #contacto	#contraste a{
+	 			 margin-left: 32.5%;
+	 		 }
+	 	 	 #contacto	#contraste a:hover{
+	 				color: #781E1F;
+	 	 	 }
+	 	 	 #contacto #contraste a::after{
+	 	 			content: '';
+	 	 			display: block;
+	 	 			width: 0;
+	 	 			height: 2px;
+	 	 			transition: width .3s;
+	 	 			background: #fff;
+	 	 	 }
+	 	 	 #contacto #contraste a:hover::after{
+	 	 			width: 100%;
+	 	 			transition: width .3s;
+	 	 	 }
+	 	 	 #contacto	.dside-footer{
+	 	 		 	margin-top: 3%;
+	 	   }
 	}
 /* ---------------Android Medium Screen Size Vertical----------*/
 	@media only screen
@@ -997,106 +1096,5 @@
 	 	 	 }
 	 	 	 #contacto	.dside-footer{
 	 	 		 	margin-top: 25%;
-	 	   }
-	}
-
-/* ---------------Android Medium-Large Screen Size Horizontal----------*/
-	@media only screen
-	and (min-device-width: 260px)
-	and (max-device-width: 640px)
-	and (-webkit-min-device-pixel-ratio: 2)
-	and (orientation: landscape) {
-		/*Botones navegación*/
-				#boton1, #boton2{
-					top: 85%;
-				}
-  	/*Logo Header*********************************************/
-	 	   #logo{
-	  	 		margin-left: 5%;
-	 		 		margin-top: 2%;
-	 		 }
-	 		 #logo img{
-			 		width: 12%;
-	 		 		height: auto;
-	 		 }
-
-	 	/*Home*/
-	 		 #video-home{
-	 		 		display: none;
-	 		 }
-	 		 #video-home2{
-	 		 		display: block;
-	 		 }
-	 		 #home h1{
-	 		 		font-size: 1.7em;
-	 		 		margin-top: 25%;
-  		 }
- 	 /*Portafolio*/
-
-	 	 	 #portafolio .contenedor-proyectos{
-	 	 	 		width: 80%;
-	 	 	    height: 50%;
-	 	 	    margin: 15% 10% 0% 10%;
-	 	 	    padding: 2%;
-	 	 	 }
-	 	 	 #portafolio .proyecto {
-	 	 			width: 25%;
-	 	 		  margin-top: 0%;
-	 	 		  margin-left: 15%;
-	 	 	 }
-	 	 	 #portafolio h1{
-	 	 	 		font-size: 1em;
-	 	 	 		margin-top: 0%;
-					margin-left: 75%;
-	 	 	 }
-
-	 /*Nosotros*/
-	  	 #nosotros h1{
-		 	 	  font-size: 1em;
-		 	 	  margin-top: -3.5%;
-					margin-left: 75%;
-		 	 }
-		 	 .elasticstack {
-		 	 	 	margin: 10% auto 0% auto;
-		 	 	  padding: 0;
-		 	 	  width: 35%;
-		 	 	  height: 65%;
-		 	 }
-		 	 .elasticstack li {
-		 	 		 	width: 100%;
-		 	 		  height: 100%;
-		 	 		  border-width: 20px 20px 70px 20px;
-		 	 	 }
-		 	 .elasticstack li h5 {
-		 	 		 	font-size: 0.8em;
-		 	 		 	line-height: 25px;
-		 	 	 }
-	 /*Contacto*/
-	 	 	 #video-contacto2{
-	 	 		 	display: none;
-	 	 	 }
-	 	 	 #contacto	#contraste h1{
-	 	 			margin-top: 20%;
-	 	 	 }
-	 		 #contacto	#contraste a{
-	 			 margin-left: 32.5%;
-	 		 }
-	 	 	 #contacto	#contraste a:hover{
-	 				color: #781E1F;
-	 	 	 }
-	 	 	 #contacto #contraste a::after{
-	 	 			content: '';
-	 	 			display: block;
-	 	 			width: 0;
-	 	 			height: 2px;
-	 	 			transition: width .3s;
-	 	 			background: #fff;
-	 	 	 }
-	 	 	 #contacto #contraste a:hover::after{
-	 	 			width: 100%;
-	 	 			transition: width .3s;
-	 	 	 }
-	 	 	 #contacto	.dside-footer{
-	 	 		 	margin-top: 3%;
 	 	   }
 	}
