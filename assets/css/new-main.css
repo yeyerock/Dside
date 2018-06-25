@@ -586,7 +586,7 @@
 /* ---------------Iphone 5, 5S ,5C ,5SE ----------------************** */
 	 @media only screen
 	 and (min-device-width: 320px)
-	 and (max-device-width: 528px)
+	 and (max-device-width: 460px)
 	 and (-webkit-min-device-pixel-ratio: 2)
 	 and (orientation: portrait) {
 
@@ -616,13 +616,13 @@
 		 	#portafolio .subtitulo-proyectos{
 		 		font-size: 1.2em;
 		 		font-size: 1.2em;
-		    margin-top: 35%;
+		    margin-top: 30%;
 		    margin-left: 10%;
 		   }
 		 	#portafolio .contenedor-proyectos{
 		 		width: 90%;
 		    height: 50%;
-		    margin: 0% 10% 10% 5%;
+		    margin: 0% 10% 0% 3%;
 		    padding: 2%;
 		 	}
 		 	#portafolio .proyecto {
@@ -632,19 +632,19 @@
 		 	}
 		 	#portafolio h1{
 		 		font-size: 1.5em;
-		 		margin-top: -5%;
+		 		margin-top: 5%;
 		 	}
 
 		 /*Nosotros*/
 		 	#nosotros h1{
 		    font-size: 1.5em;
-		    margin-top: 13%;
+		    margin-top: 5%;
 		 	}
 		 	.elasticstack {
-		 		margin: 40% auto 0% auto;
+		 		margin: 35% auto 0% auto;
 		    padding: 0;
 		    width: 70%;
-		    height: 50%;
+		    height: 55%;
 		 	}
 		 	.elasticstack li {
 		 		width: 100%;
@@ -653,7 +653,7 @@
 		 	}
 		 	.elasticstack li h5 {
 		 		font-size: 1.05em;
-		 		line-height: 40px;
+		 		line-height: 25px;
 		 	}
 
 
@@ -662,7 +662,7 @@
 		 		display: none;
 		 	}
 			#contacto	#contraste h1{
-				margin-top: 85%;
+				margin-top: 65%;
 			}
 			#contacto	#contraste a:hover{
 					color: #781E1F;
@@ -815,7 +815,7 @@
 /* ---------------Android Phones Medium ScreenSize  ---------------- */
 	 @media only screen
 	 and (min-device-width: 330px)
-	 and (max-device-width: 460px)
+	 and (max-device-width: 480px)
 	 and (-webkit-min-device-pixel-ratio: 1)
 	 and (orientation: portrait) {
 
