@@ -757,7 +757,6 @@
 					padding: 0;
 					width: 35%;
 					height: 65%;
-					border: 1px solid red;
 			}
 			.elasticstack li {
 					height: 100%;
@@ -767,7 +766,7 @@
 			.elasticstack li h5 {
 					text-align: right;
 					font-size: 0.75em;
-					line-height: 20px;
+					line-height: 25px;
 			}
 
 	 /*Contacto*/
@@ -801,7 +800,7 @@
 					transition: width .3s;
 			}
 			#contacto	.dside-footer{
-					margin-top: 2%;
+					margin-top: 4%;
 					font-size:  0.8em;
 			}
 	}
