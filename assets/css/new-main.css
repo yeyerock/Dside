@@ -1977,10 +1977,10 @@
 				}
 	}
 
-/* -------------- Windows Phone -------------- */
+/* -------------- Galaxy A Series -------------- *******************************/
 		@media only screen
-		and (device-width: 480px)
-		and (device-height: 800px)
+		and (min-device-width: 425px)
+		and (max-device-height: 650px)
 		and (orientation: portrait){
 
 			/*Logo Header*/
@@ -2007,9 +2007,9 @@
 
 			/*Portafolio*/
 					#portafolio .subtitulo-proyectos{
-						font-size: 1.4em;
-						margin-top: 35%;
-						margin-left: 7%;
+						font-size: 1.3em;
+						margin-top: 30%;
+						margin-left: 5.5%;
 					}
 					#portafolio .contenedor-proyectos{
 						width: 90%;
@@ -2033,9 +2033,9 @@
 						margin-top: 16%;
 					}
 					.elasticstack {
-						margin: 40% auto 0% auto;
+						margin: 35% auto 0% auto;
 						padding: 0;
-						width: 80%;
+						width: 70%;
 						height: 50%;
 					}
 					.elasticstack li {
@@ -2053,10 +2053,10 @@
 						display: none;
 					}
 					#contacto h1{
-						margin-top: 85%;
+						margin-top: 80%;
 					}
 					#contacto #contraste a{
-							margin-left: 23%;
+							margin-left: 20%;
 					}
 					#contacto	#contraste a:hover{
 							color: #781E1F;
@@ -2075,7 +2075,7 @@
 					}
 					#contacto	.dside-footer{
 						font-size: 1.2em;
-						margin-top: 35%;
+						margin-top: 20%;
 					}
 		}
 
