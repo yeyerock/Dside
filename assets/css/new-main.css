@@ -803,6 +803,229 @@
 					}
 		 }
 
+/* ---------------Android Phones Medium ScreenSize  ---------------- */
+ 	 @media only screen
+	 and (min-device-width: 330px)
+ 	 and (max-device-width: 460px)
+ 	 and (-webkit-min-device-pixel-ratio: 2)
+ 	 and (orientation: portrait) {
+
+ 		 /*Logo Header*********************************************/
+  		 	#logo{
+	 		 		margin-left: 5%;
+	 		 		margin-top: 5%;
+	 		 	}
+	 		 	#logo img{
+	 		 		width: 23%;
+	 		 		height: auto;
+	 		 	}
+
+ 		 /*Home*/
+	 		 	#video-home{
+	 		 		display: block;
+	 		 	}
+	 		 	#video-home2{
+	 		 		display: none;
+	 		 	}
+	 		 	#home h1{
+	 		 		font-size: 1.7em;
+	 		 		margin-top: 85%;
+	 		 	}
+
+ 		 /*Portafolio*/
+	 		 	#portafolio .subtitulo-proyectos{
+	 		 		font-size: 1.2em;
+	 		 		font-size: 1.2em;
+	 		    margin-top: 30%;
+	 		    margin-left: 10%;
+	 		   }
+	 		 	#portafolio .contenedor-proyectos{
+	 		 		width: 90%;
+	 		    height: 50%;
+	 		    margin: 0% 10% 10% 5%;
+	 		    padding: 2%;
+	 		 	}
+		 		 	#portafolio .proyecto {
+		 		 		width: 43%;
+		 		    margin-top: 8%;
+		 		    margin-left: 5%;
+		 		 	}
+		 		 	#portafolio h1{
+		 		 		font-size: 1.5em;
+		 		 		margin-top: -5%;
+		 		 	}
+
+		 		 /*Nosotros*/
+		 		 	#nosotros h1{
+		 		    font-size: 1.5em;
+		 		    margin-top: -17.5%;
+		 		 	}
+		 		 	.elasticstack {
+		 		 		margin: 25% auto;
+		 		    padding: 0;
+		 		    width: 70%;
+		 		    height: 60%;
+		 		 	}
+		 		 	.elasticstack li {
+		 		 		width: 100%;
+		 		    height: 94%;
+		 		    border-width: 25px 20px 60px 20px;
+		 		 	}
+		 		 	.elasticstack li h5 {
+		 		 		font-size: 1.05em;
+		 		 		line-height: 40px;
+		 		 	}
+
+
+		 		 /*Contacto*/
+		 		 	#video-contacto2{
+		 		 		display: none;
+		 		 	}
+					#contacto #contraste a{
+						margin-left: 19.5%;
+					}
+		 			#contacto	#contraste a:hover{
+		 					color: #781E1F;
+		 			}
+		 		 #contacto #contraste a::after{
+		 					content: '';
+		 					display: block;
+		 					width: 0;
+		 					height: 2px;
+		 					transition: width .3s;
+		 					background: #fff;
+		 			}
+		 			#contacto #contraste a:hover::after{
+		 					width: 100%;
+		 					transition: width .3s;
+		 			}
+		 		  #contacto	.dside-footer{
+		 		 		margin-top: 35%;
+		 		 	}
+		}
+
+		@media only screen
+		and (min-device-width: 330px)
+		and (max-device-width: 480px)
+		and (-webkit-min-device-pixel-ratio: 2)
+		 	 and (orientation: landscape) {
+
+		 			/*Botones navegación*/
+		 				#boton1, #boton2{
+		 					top: 83%;
+		 				}
+
+		 			/*Logo Header*/
+		 				#logo{
+		 					margin-left: 5%;
+		 					margin-top: 3%;
+		 				}
+		 				#logo img{
+		 					width: 15%;
+		 					height: auto;
+		 				}
+
+		 			/*Home*/
+		 				#navegacion #home{
+		 					display: block;
+		 					height: 100%;
+		 					z-index: 999;
+		 				}
+		 				#video-home{
+		 					display: none;
+		 				}
+		 				#video-home2{
+		 					display: block;
+		 				}
+		 				#home h1{
+		 					font-size: 1.2em;
+		 					text-align: left;
+		 					margin-top: 35%;
+		 					margin-left: 5%;
+		 				}
+		 			/*Portafolio*/
+		 				#portafolio .subtitulo-proyectos{
+		 					font-size: 1em;
+		 					margin-top: 13%;
+		 					margin-left: 10%;
+		 				}
+		 				#portafolio .contenedor-proyectos{
+		 					width: 80%;
+		 					height: 50%;
+		 					margin: 0% 10% 10% 10%;
+		 					padding: 2%;
+		 				}
+		 				#portafolio .proyecto {
+		 					width: 22%;
+		 					display: inline-grid;
+		 					margin-top: 5%;
+		 					margin-left: 20%;
+		 				}
+		 				#portafolio h1{
+		 					font-size: 1em;
+		 					margin-top: -13%;
+		 					margin-left: 72%;
+		 				}
+
+		 			/*Nosotros*/
+		 				#nosotros h1{
+		 					font-size: 1em;
+		 					margin-top: -20.5%;
+		 					margin-left: 72%;
+		 				}
+		 				.elasticstack {
+		 					margin: 13% auto;
+		 					padding: 0;
+		 					width: 30%;
+		 					height: 65%;
+		 				}
+		 				.elasticstack li {
+		 					height: 100%;
+		    				border-width: 20px 20px 85px 20px;
+		 					border-style: solid;
+		 				}
+		 				.elasticstack li h5 {
+		 					text-align: right;
+		 					font-size: 0.75em;
+		 					line-height: 40px;
+		 				}
+
+		 			/*Contacto*/
+		 				#contacto h1{
+		 							font-size: 1.5em;
+		 							margin-top: 20%;
+		 						}
+		 				#video-contacto1{
+		 							display: none;
+		 						}
+		 				#video-contacto2{
+		 							display: block;
+		 						}
+		 			  #contacto #contraste a{
+		 					margin-left: 31%;
+		 					font-size: 1.5em;
+		 				}
+		 				#contacto	#contraste a:hover{
+		 						color: #781E1F;
+		 				}
+		 			 #contacto #contraste a::after{
+		 						content: '';
+		 						display: block;
+		 						width: 0;
+		 						height: 2px;
+		 						transition: width .3s;
+		 						background: #fff;
+		 				}
+		 				#contacto #contraste a:hover::after{
+		 						width: 100%;
+		 						transition: width .3s;
+		 				}
+		 				#contacto	.dside-footer{
+		 						margin-top: 2%;
+		 						font-size:  0.8em;
+		 					}
+		 		 }
+
 /* ---------------Iphone 6, 6S ,7 ,8 ---------------- */
 	 @media only screen
 	 and (min-device-width: 375px)
@@ -1510,472 +1733,7 @@
 		 	}
 	}
 
-/* -----------Galaxy S4, S5 & Note 3 ------------ */
-	 @media only screen
-	 and (device-width: 320px)
-	 and (device-height: 640px)
-	 and (-webkit-min-device-pixel-ratio: 2)
-	 and (orientation: portrait){
-			/*Logo Header*/
-				#logo{
-					margin-left: 5%;
-					margin-top: 5%;
-				}
-				#logo img{
-					width: 23%;
-					height: auto;
-				}
 
-			/*Home*/
-				#video-home{
-					display: block;
-				}
-				#video-home2{
-					display: none;
-				}
-				#home h1{
-					font-size: 1.8em;
-					margin-top: 95%;
-				}
-
-			/*Portafolio*/
-				#portafolio .subtitulo-proyectos{
-					font-size: 1.2em;
-					margin-top: 35%;
-					margin-left: 10%;
-				}
-				#portafolio .contenedor-proyectos{
-					width: 90%;
-					height: 50%;
-					margin: 0% 10% 10% 5%;
-					padding: 2%;
-				}
-				#portafolio .proyecto {
-					width: 43%;
-					margin-top: 15%;
-					margin-left: 3%;
-				}
-				#portafolio h1{
-					font-size: 1.5em;
-					margin-top: -5%;
-				}
-
-			/*Nosotros*/
-				#nosotros h1{
-					font-size: 1.5em;
-					margin-top: 24%;
-				}
-				.elasticstack {
-					margin: 40% auto 0% auto;
-					padding: 0;
-					width: 80%;
-					height: 45%;
-				}
-				.elasticstack li {
-					width: 100%;
-					height: 100%;
-					border-width: 30px 30px 85px 30px;
-				}
-				.elasticstack li h5 {
-					font-size: 1.15em;
-					line-height: 50px;
-				}
-
-			/*Contacto*/
-				#video-contacto2{
-					display: none;
-				}
-				#contacto h1{
-					margin-top: 95%;
-				}
-				#contacto #contraste a{
-						margin-left: 17%;
-				}
-				#contacto	#contraste a:hover{
-						color: #781E1F;
-				}
-				#contacto #contraste a::after{
-						content: '';
-						display: block;
-						width: 0;
-						height: 2px;
-						transition: width .3s;
-						background: #fff;
-				}
-				#contacto #contraste a:hover::after{
-						width: 100%;
-						transition: width .3s;
-				}
-				#contacto	.dside-footer{
-					font-size: 1em;
-					margin-top: 45%;
-				}
-	 }
-
-	 @media only screen
-	 and (device-height: 320px)
-	 and (device-width: 640px)
-	 and (-webkit-min-device-pixel-ratio: 2)
-	 and (orientation: landscape) {
-
-				/*Botones Navegación*/
-				 .boton-nav{
-							 width: 5%;
-							 height: 9%;
-							 border: 1px solid red;
-				 }
-				 .boton-nav span{
-							 font-size: 2em;
-				 }
-				/*Botones navegación*/
-				 #boton1, #boton2{
-					 top: 85%;
-				 }
-
-				/*Logo Header*/
-				 #logo{
-					 margin-left: 5%;
-					 margin-top: 3%;
-				 }
-				 #logo img{
-					 width: 15%;
-					 height: auto;
-				 }
-
-				/*Home*/
-				 #navegacion #home{
-					 display: block;
-					 height: 100%;
-					 z-index: 999;
-				 }
-				 #video-home{
-					 display: none;
-				 }
-				 #video-home2{
-					 display: block;
-				 }
-				 #home h1{
-					 font-size: 1.3em;
-					 text-align: left;
-					 margin-top: 30%;
-					 margin-left: 5%;
-				 }
-				/*Portafolio*/
-				 #portafolio .subtitulo-proyectos{
-					 font-size: 1.2em;
-					 margin-top: 14%;
-					 margin-left: 10%;
-				 }
-				 #portafolio .contenedor-proyectos{
-					 width: 80%;
-					 height: 50%;
-					 margin: 0% 10% 0% 10%;
-					 padding: 2%;
-				 }
-				 #portafolio .proyecto {
-					 width: 25%;
-					 display: inline-grid;
-					 margin-top: 2%;
-					 margin-left: 12%;
-				 }
-				 #portafolio h1{
-					 font-size: 1.2em;
-					 margin-top: -4%;
-					 margin-left: 72%;
-				 }
-
-				/*Nosotros*/
-				 #nosotros h1{
-					 font-size: 1.2em;
-					 margin-top: -15.5%;
-					 margin-left: 73%;
-				 }
-				 .elasticstack {
-					 margin: 8% auto 0 auto;
-					 padding: 0;
-					 width: 35%;
-					 height: 72%;
-				 }
-				 .elasticstack li {
-					 height: 100%;
-					 border-width: 20px 20px 45px 20px;
-					 border-style: solid;
-				 }
-				 .elasticstack li h5 {
-					 text-align: right;
-					 font-size: 0.9em;
-					 line-height: 25px;
-				 }
-
-				/*Contacto*/
-				 #contacto h1{
-							 font-size: 1.5em;
-							 margin-top: 25%;
-						 }
-				 #video-contacto1{
-							 display: none;
-						 }
-				 #video-contacto2{
-							 display: block;
-						 }
-				 #contacto #contraste a{
-					 position: relative;
-					 margin-left: 33%;
-					 font-size: 1.5em;
-				 }
-				 #contacto	#contraste a:hover{
-						 color: #781E1F;
-				 }
-				 #contacto #contraste a::after{
-						 content: '';
-						 display: block;
-						 width: 0;
-						 height: 2px;
-						 transition: width .3s;
-						 background: #fff;
-				 }
-				 #contacto #contraste a:hover::after{
-						 width: 100%;
-						 transition: width .3s;
-				 }
-				 #contacto	.dside-footer{
-						 margin-top: 2%;
-						 font-size:  1em;
-				 }
-			}
-
-/* -------Galaxy S6, S7 ---------------- */
-	 @media only screen
-	 and (device-width: 360px)
-	 and (device-height: 640px)
-	 and (-webkit-min-device-pixel-ratio: 3)
-	 and (orientation: portrait){
-
-		 /*Logo Header*/
-				 #logo{
-					 margin-left: 5%;
-					 margin-top: 5%;
-				 }
-				 #logo img{
-					 width: 23%;
-					 height: auto;
-				 }
-
-		 /*Home*/
-				 #video-home{
-					 display: block;
-				 }
-				 #video-home2{
-					 display: none;
-				 }
-				 #home h1{
-					 font-size: 1.8em;
-					 margin-top: 95%;
-				 }
-
-		 /*Portafolio*/
-				 #portafolio .subtitulo-proyectos{
-					 font-size: 1.2em;
-					 margin-top: 35%;
-					 margin-left: 10%;
-				 }
-				 #portafolio .contenedor-proyectos{
-					 width: 90%;
-					 height: 50%;
-					 margin: 0% 10% 10% 5%;
-					 padding: 2%;
-				 }
-				 #portafolio .proyecto {
-					 width: 43%;
-					 margin-top: 15%;
-					 margin-left: 3%;
-				 }
-				 #portafolio h1{
-					 font-size: 1.5em;
-					 margin-top: 0%;
-				 }
-
-		 /*Nosotros*/
-				 #nosotros h1{
-					 font-size: 1.5em;
-					 margin-top: 16%;
-				 }
-				 .elasticstack {
-					 margin: 40% auto 0% auto;
-					 padding: 0;
-					 width: 80%;
-					 height: 50%;
-				 }
-				 .elasticstack li {
-					 width: 100%;
-					 height: 100%;
-					 border-width: 30px 30px 85px 30px;
-				 }
-				 .elasticstack li h5 {
-					 font-size: 1.15em;
-					 line-height: 40px;
-				 }
-
-		 /*Contacto*/
-				 #video-contacto2{
-					 display: none;
-				 }
-				 #contacto h1{
-					 margin-top: 85%;
-				 }
-				 #contacto #contraste a{
-						 margin-left: 20%;
-				 }
-				 #contacto	#contraste a:hover{
-						 color: #781E1F;
-				 }
-				 #contacto #contraste a::after{
-						 content: '';
-						 display: block;
-						 width: 0;
-						 height: 2px;
-						 transition: width .3s;
-						 background: #fff;
-				 }
-				 #contacto #contraste a:hover::after{
-						 width: 100%;
-						 transition: width .3s;
-				 }
-				 #contacto	.dside-footer{
-					 font-size: 1em;
-					 margin-top: 30%;
-				 }
-   }
-
-	 @media only screen
-	 and (device-height: 360px)
-	 and (device-width: 640px)
-	 and (-webkit-min-device-pixel-ratio: 3)
-	 and (orientation: landscape) {
-			/*Botones Navegación*/
-		  	.boton-nav{
-						width: 5%;
-						height: 9%;
-				}
-				.boton-nav span{
-						font-size: 2em;
-				}
-			/*Botones navegación*/
-				#boton1, #boton2{
-			  		top: 85%;
-				}
-
-			/*Logo Header*/
-				#logo{
-			  		margin-left: 5%;
-						margin-top: 3%;
-				}
-				#logo img{
-						width: 15%;
-						height: auto;
-				}
-
-			/*Home*/
-				#navegacion #home{
-			    	display: block;
-					  height: 100%;
-						z-index: 999;
-				}
-				#video-home{
-						display: none;
-				}
-				#video-home2{
-						display: block;
-				}
-				#home h1{
-				   font-size: 1.3em;
-					 text-align: left;
-					 margin-top: 35%;
-					 margin-left: 5%;
-			  }
-		  /*Portafolio*/
-				#portafolio .subtitulo-proyectos{
-						font-size: 1.4em;
-						margin-top: 14%;
-						margin-left: 10%;
-				}
-				#portafolio .contenedor-proyectos{
-		  			width: 80%;
-						height: 50%;
-						margin: 0% 10% 0% 10%;
-						padding: 2%;
-				}
-				#portafolio .proyecto {
-						width: 25%;
-						display: inline-grid;
-						margin-top: 5%;
-						margin-left: 15%;
-				}
-				#portafolio h1{
-						font-size: 1.2em;
-						margin-top: -2%;
-						margin-left: 72%;
-				}
-
-		 /*Nosotros*/
-				#nosotros h1{
-						font-size: 1.2em;
-						margin-top: -5%;
-						margin-left: 73%;
-				}
-				.elasticstack {
-						margin: 12% auto 0% auto;
-						padding: 0;
-						width: 35%;
-						height: 65%;
-				}
-				.elasticstack li {
-						height: 100%;
-						border-width: 20px 20px 45px 20px;
-						border-style: solid;
-				}
-				.elasticstack li h5 {
-						text-align: right;
-						font-size: 1.1em;
-						line-height: 35px;
-				}
-
-		 /*Contacto*/
-				#contacto h1{
-						font-size: 1.5em;
-						margin-top: 30%;
-				}
-				#video-contacto1{
-						display: none;
-				}
-				#video-contacto2{
-						display: block;
-				}
-				#contacto #contraste a{
-				  	position: relative;
-						margin-left: 33%;
-						font-size: 1.5em;
-				}
-				#contacto	#contraste a:hover{
-						color: #781E1F;
-				}
-				#contacto #contraste a::after{
-						content: '';
-						display: block;
-						width: 0;
-						height: 2px;
-						transition: width .3s;
-						background: #fff;
-				}
-				#contacto #contraste a:hover::after{
-						width: 100%;
-						transition: width .3s;
-				}
-				#contacto	.dside-footer{
-						margin-top: 2%;
-						font-size:  1em;
-				}
-	}
 
 /* -------------- Galaxy A Series -------------- *******************************/
 		@media only screen
