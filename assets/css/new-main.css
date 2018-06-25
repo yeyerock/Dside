@@ -1059,14 +1059,15 @@
 	 	 	 }
 	 	 	 #portafolio h1{
 	 	 	 		font-size: 1em;
-	 	 	 		margin-top: 1%;
+	 	 	 		margin-top: 1.5%;
 					margin-left: 75%;
 	 	 	 }
 
 	 /*Nosotros*/
 	  	 #nosotros h1{
-		 	 	  font-size: 1.5em;
-		 	 	  margin-top: 5%;
+		 	 	  font-size: 1em;
+		 	 	  margin-top: -7%;
+					margin-left: 75%;
 		 	 }
 		 	 .elasticstack {
 		 	 	 	margin: 7% auto 0% auto;
