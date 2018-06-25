@@ -1003,9 +1003,7 @@
 	and (max-device-width: 640px)
 	and (-webkit-min-device-pixel-ratio: 2)
 	and (orientation: portrait) {
-body{
-	display: none;
-}
+
 	 	/*Logo Header*********************************************/
 	 	   #logo{
 	  	 		margin-left: 5%;
