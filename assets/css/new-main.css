@@ -581,11 +581,12 @@
 /* ---------------Iphone 5, 5S ,5C ,5SE Vertical----------*/
  	@media only screen
  	and (min-device-width: 320px)
-	and (max-device-width: 329px)
 	and (max-device-height: 528px)
  	and (-webkit-min-device-pixel-ratio: 2)
  	and (orientation: portrait) {
-
+body{
+	display: none;
+}
 
 		 	#boton1, #boton2{
 		 		position: absolute;
