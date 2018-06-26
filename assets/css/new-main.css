@@ -579,10 +579,10 @@
 					font-size:  0.8em;
 				}
 	 }
-	 /* ---------- Iphone 4 horizontal ------------ */
+/* ---------- Iphone 5 horizontal ------------ */
 	 	@media only screen
 	 	and (min-device-width: 212px)
-	 	and (max-device-width: 480px)
+	 	and (max-device-width: 528px)
 	 	and (-webkit-min-device-pixel-ratio: 2)
 	 	and (orientation: landscape) {
 
