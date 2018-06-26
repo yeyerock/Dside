@@ -1516,65 +1516,60 @@
 				top: 90%;
 			}
 			.boton-nav{
-			  	width: 7%;
-					height: 5%;
-					border: 1px solid red;
+			  	width: 4%;
+					height: 6%;
 			}
 			.boton-nav span{
-					font-size: 3em;
+					font-size: 2.5em;
 			}
 	 	/*Logo Header*********************************************/
 	 	   #logo{
 	  	 		margin-left: 5%;
-	 		 		margin-top: 5%;
+	 		 		margin-top: 3%;
 	 		 }
 	 		 #logo img{
-			 		width: 23%;
+			 		width: 15%;
 	 		 		height: auto;
 	 		 }
 		/*Home*/
 	 		 #video-home{
-	 		 		display: block;
+	 		 		display: none;
 	 		 }
 	 		 #video-home2{
-	 		 		display: none;
+	 		 		display: block;
 	 		 }
 	 		 #home h1{
 	 		 		font-size: 3em;
-	 		 		margin-top: 80%;
+	 		 		margin-top: 35%;
 	 		 }
 	  /*Portafolio*/
-		   #portafolio .subtitulo-proyectos{
-	 	 	 		font-size: 1.2em;
-	 	 	 		font-size: 1.2em;
-	 	 	    margin-top: 30%;
-	 	 	    margin-left: 10%;
-	 	 	 }
-		 	 #portafolio .contenedor-proyectos{
+		   #portafolio .contenedor-proyectos{
 	 	 	 		width: 90%;
 	 	 	    height: 50%;
-	 	 	    margin: 35% 10% 0% 3%;
+	 	 	    margin: 15% 5% 0% 5%;
 	 	 	    padding: 2%;
 	 	 	 }
 		 	 #portafolio .proyecto {
-	 	 			width: 43%;
-	 	 		  margin-top: 8%;
-	 	 		  margin-left: 5%;
+	 	 			width: 30%;
+	 	 		  margin-top: 0%;
+	 	 		  margin-left: 10%;
 		 	 }
 	 	 	 #portafolio h1{
-		 	 		font-size: 3em;
+		 	 		font-size: 2em;
 	 	 	 		margin-top: 6%;
+					margin-left: 70%;
 	 	 	 }
 	 	/*Nosotros*/
 	 	 	 #nosotros h1{
-	 	 		  font-size: 3em;
-	 	 		  margin-top: 7%;
+				 font-size: 2em;
+				 margin-top: -4%;
+				 margin-left: 70%;
 	 	 	 }
 		 	 .elasticstack {
-	 	 		 	margin: 30% auto 0% auto;
+	 	 		 	margin: 15% auto 0% auto;
 	 	 		  padding: 0;
-	 	 		  width: 60%;
-	 	 		  height: 53%;
+	 	 		  width: 40%;
+	 	 		  height: 65%;
 	 	 	 }
 	 	 	 .elasticstack li {
 	 	 		 	width: 100%;
@@ -1590,12 +1585,12 @@
 	 	 		 	display: none;
 	 	 	 }
 		 	 #contacto	#contraste h1{
-	 	 			margin-top: 75%;
-					font-size: 3em;
+	 	 			margin-top: 25%;
+					font-size: 2.5em;
 	 	 	 }
 	 		 #contacto	#contraste a{
-	 			 margin-left: 22%;
-				 font-size: 3em;
+	 			 margin-left: 32%;
+				 font-size: 2.5em;
 		 	 }
 	 	 	 #contacto	#contraste a:hover{
 	 				color: #FFF;
