@@ -856,7 +856,7 @@
 		.elasticstack li {
 			width: 100%;
 			height: 100%;
-			border-width: 25px 20px 60px 20px;
+			border-width: 20px 20px 60px 20px;
 		}
 		.elasticstack li h5 {
 			font-size: 1.05em;
