@@ -602,7 +602,7 @@
 	  			left: 5%;
 	 	  }
 	 		#boton2{
-	 				right:5%;
+	 				right:3%;
 	 		}
 	 	/*Logo Header*/
 	 		#logo{
@@ -664,15 +664,14 @@
 	 	/*Nosotros*/
 	 	  #nosotros h1{
 	 				font-size: 1em;
-	 				margin-top: -8%;
+	 				margin-top: -5%;
 	 				margin-left: 70%;
 	 		}
 	 		.elasticstack {
 	 				margin: 5% auto 0 auto;
 	 				padding: 0;
-	 				width: 35%;
-	 				height: 60%;
-					border: 1px solid blue;
+	 				width: 30%;
+	 				height: 75%;
 	 		}
 	 		.elasticstack li {
 	 				height: 100%;
@@ -704,7 +703,7 @@
 	 				display: block;
 	 		}
 	 	  #contacto #contraste a{
-	 				margin-left: 30%;
+	 				margin-left: 33%;
 	 				font-size: 1.3em;
 	 		}
 	 		#contacto	.dside-footer{
