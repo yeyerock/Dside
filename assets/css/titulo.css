@@ -1,0 +1,99 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body{
+  background:#52292A;
+
+}
+
+
+.button{
+  display:inline-block;
+  width: 100%;
+	height: 100%;
+	border-radius: 50%;
+  margin-right:20px;
+  margin-bottom:20px;
+  text-align:center;
+  cursor:pointer;
+  float:left;
+	border: 1px solid red;
+}
+.button:after{
+  display:inline-block;
+  position:relative;
+	border-radius: 20%;
+  content:'';
+  box-sizing:content-box;
+  backface-visibility: hidden;
+}
+.button:before{
+  position:relative;
+  display:block;
+  font-family: 'FontAwesome', sans-serif;
+  font-size:0.5em;
+  z-index :1;
+  line-height:90px;
+}
+
+.fontawesome-time{
+  box-shadow: 0 0 0 4px #fff;
+  transform:box-shadow .2s;
+}
+
+
+.fontawesome-time:after{
+  width: 100%;
+	height: 100%;
+  top:-93.5px;
+  left:-3.5px;
+  border:4px dashed #fff;
+}
+
+
+.fontawesome-time:before{
+  color:white;
+}
+.fontawesome-time:hover{
+   box-shadow: 0 0 0 0px #fff;
+}
+.fontawesome-time:hover:after{
+    animation:spin 9s linear infinite;
+}
+
+
+
+@keyframes spin{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+@keyframes slide{
+	49% {
+		transform: translate(-100%);
+	}
+	50% {
+		opacity: 0;
+		transform: translate(100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@keyframes ripple{
+  0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #52292A, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #52292A, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
