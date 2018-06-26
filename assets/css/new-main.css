@@ -1058,7 +1058,7 @@
 	 	 		 	margin: 35% auto 0% auto;
 	 	 		  padding: 0;
 	 	 		  width: 70%;
-	 	 		  height: 50%;
+	 	 		  height: 60%;
 	 	 	 }
 	 	 	 .elasticstack li {
 	 	 		 	width: 100%;
@@ -1077,7 +1077,7 @@
 	 	 			margin-top: 75%;
 	 	 	 }
 	 		 #contacto	#contraste a{
-	 			 margin-left: 20.5%;
+	 			 margin-left: 22%;
 	 		 }
 	 	 	 #contacto	#contraste a:hover{
 	 				color: #FFF;
@@ -1268,8 +1268,8 @@
 	 	 	 .elasticstack li h5 {
 		 	 		 	font-size: 1.1em;
 		 	 		 	line-height: 40px;
-		 	 	 }
-	   /*Contacto*/
+		 	 }
+	 /*Contacto*/
 		 	 #video-contacto2{
 		 	 		 	display: none;
 		 	 	 }
@@ -1278,7 +1278,7 @@
 		 	 	 }
 	 		 #contacto	#contraste a{
 		 			 margin-left: 26%;
-		 		 }
+		 	 }
 	 	 	 #contacto	#contraste a:hover{
 		 				color: #FFF;
 		 	 	 }
