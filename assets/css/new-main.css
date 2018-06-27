@@ -581,7 +581,7 @@
 /* ---------------Medium Small Size Phone 330 px ----------*/
 	@media only screen
 	and (min-width: 330px)
-	and (max-width: 460px)
+	and (max-width: 480px)
 	and (-webkit-min-device-pixel-ratio: 2)
 	and (orientation: portrait) {
 
