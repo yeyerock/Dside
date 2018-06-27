@@ -585,6 +585,13 @@
 	and (-webkit-min-device-pixel-ratio: 2)
 	and (orientation: portrait) {
 
+		.boton-nav{
+				width: 8%;
+				height: 4.5%;
+		}
+		.boton-nav i{
+				font-size: 1.5em;
+		}
 	 	/*Logo Header*********************************************/
 	 	   #logo{
 	 		 		margin-left: 5%;
@@ -717,6 +724,13 @@
 	and (-webkit-min-device-pixel-ratio: 2)
 	and (orientation: portrait) {
 
+		.boton-nav{
+				width: 8%;
+				height: 4.5%;
+		}
+		.boton-nav i{
+				font-size: 1.7em;
+		}
 	 	/*Logo Header*********************************************/
 	 	   #logo{
 	 		 		margin-left: 5%;
@@ -826,11 +840,18 @@
 	}
 /* ---------------Medium Large Size Phone 375 px ----------*/
 	@media only screen
-	and (min-width: 360px)
+	and (min-width: 375px)
 	and (max-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2)
 	and (orientation: portrait) {
 
+		.boton-nav{
+				width: 8%;
+				height: 4.5%;
+		}
+		.boton-nav i{
+				font-size: 1.7em;
+		}
 	 	/*Logo Header*********************************************/
 	 	   #logo{
 	 		 		margin-left: 5%;
@@ -930,7 +951,7 @@
 						color: red;
 						font-size: 1.5em;
 			  }
-	       #contacto	.dside-footer{
+	      #contacto	.dside-footer{
 						position: relative;
 						text-align: center;
 						margin-top: 30%;
